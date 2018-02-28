@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:solr="http://www.springframework.org/schema/data/solr" xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-4.1.xsd
+   	http://www.springframework.org/schema/aop
+    http://www.springframework.org/schema/aop/spring-aop-4.1.xsd
+    http://www.springframework.org/schema/data/solr
+    http://www.springframework.org/schema/data/solr/spring-solr.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <aop:aspectj-autoproxy proxy-target-class="true" expose-proxy="true"/>
+    <!--<import resource="classpath:applicationContext-mongodb.xml"/>-->
+    <import resource="classpath:applicationContext-dubbo.xml"/>
+
+
+    <!-- 使用annotation 自动注册bean, 并保证@Required、@Autowired的属性被注入 -->
+    <context:component-scan base-package="com.liuyq"/>
+
+    <!--solr配置-->
+    <solr:solr-client id="solrClient" url="http://127.0.0.1:8983/solr/"/>
+    <solr:repositories base-package="com" solr-client-ref="solrClient" solr-template-ref="solrTemplate"
+                       multicore-support="true"/>
+
+    <bean id="solrClientFactory" class="org.springframework.data.solr.server.support.MulticoreSolrClientFactory">
+        <constructor-arg index="0" ref="solrClient"/>
+        <constructor-arg index="1">
+            <list>
+                <value>clues</value>
+                <value>mycollections</value>
+                <value>privateCarSearch</value>
+            </list>
+        </constructor-arg>
+    </bean>
+
+    <bean id="solrTemplate" class="org.springframework.data.solr.core.SolrTemplate">
+        <constructor-arg index="0" ref="solrClientFactory"/>
+    </bean>
+
+    <!--activemq相关配置-->
+    <!--配置链接工厂
+    <bean id="connectionFactory" class="org.apache.activemq.spring.ActiveMQConnectionFactory"
+          p:brokerURL="tcp://localhost:61616"/>-->
+    <!--activemq队列(声明activemq消息目的地)
+    <bean id="queue" class="org.apache.activemq.command.ActiveMQQueue">
+        <constructor-arg>
+            <value>spitter.alert.queue</value>
+        </constructor-arg>
+    </bean>
+    -->
+    <!--消息转换器
+    <bean id="messageConverter" class="org.springframework.jms.support.converter.MappingJackson2MessageConverter"/>
+    -->
+    <!--使用JmsTemplate
+    <bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate">
+        <property name="connectionFactory" ref="connectionFactory"/>
+        <property name="receiveTimeout" value="10000"/>
+        -->
+        <!--设置默认目的地
+        <property name="defaultDestinationName" value="spittle.alert.queue"/>-->
+        <!--将之前创建的队列或主题目的bean装配进来
+        <property name="defaultDestination" ref="queue"/>
+        <property name="messageConverter" ref="messageConverter"/>
+    </bean>
+    -->
+    <!--配置消息监听器-->
+  <!--  <bean id="spittleAlertHandler" class="com.liuyq.mdp.SpittleAlertHandler"/>-->
+
+    <!--为了将spittleAlertHandler转变为消息驱动的pojo，我们需要将这个bean声明为消息监听器
+    <jms:listener-container connection-factory="connectionFactory">
+        <jms:listener destination = "spitter.alert.queue" ref="spittleAlertHandler" method="handleSpittleAlert"/>
+    </jms:listener-container>
+
+    <bean id="alertServiceExporter" class="org.springframework.jms.remoting.JmsInvokerServiceExporter">
+        <property name="service" ref="alertService"/>
+        <property name="serviceInterface" value="com.liuyq.jms.AlertService"/>
+    </bean>
+    -->
+</beans>

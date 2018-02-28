@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="
+	http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="mongoSession" class="com.liuyq.mongo.MongoSession">
+        <property name="domains" >
+            <value>${mongo.domains}</value>
+        </property>
+        <property name="user">
+            <value>${mongo.username}</value>
+        </property>
+        <property name="password">
+            <value>${mongo.password}</value>
+        </property>
+        <property name="database">
+            <value>${mongo.dbname}</value>
+        </property>
+        <property name="connectionsPerHost" value="${mongo.connectionsPerHost}"></property>
+        <property name="connectTimeout" value="${mongo.connectTimeout}"></property>
+        <property name="maxWaitTime" value="${mongo.maxWaitTime}"></property>
+        <property name="socketTimeout" value="${mongo.socketTimeout}"></property>
+        <property name="threadsAllowedToBlockForConnectionMultiplier" value="${mongo.threadsAllowedToBlockForConnectionMultiplier}"></property>
+    </bean>
+</beans>

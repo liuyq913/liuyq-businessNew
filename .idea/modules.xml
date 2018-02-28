@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/liuyq-designpattern/com.liuyq.designpattern.iml" filepath="$PROJECT_DIR$/liuyq-designpattern/com.liuyq.designpattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/com.liuyq.designpattern-service.iml" filepath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/com.liuyq.designpattern-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liuyq-designpattern/liuyq-designpattern-interface/com.liuyq.designpattern.interface.iml" filepath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpattern-interface/com.liuyq.designpattern.interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liuyq-business-common/liuyq-business-commont.iml" filepath="$PROJECT_DIR$/liuyq-business-common/liuyq-business-commont.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liuyq-businessNew.iml" filepath="$PROJECT_DIR$/liuyq-businessNew.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liuyq-center/liuyq-center.iml" filepath="$PROJECT_DIR$/liuyq-center/liuyq-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liuyq-redis/liuyq-redis.iml" filepath="$PROJECT_DIR$/liuyq-redis/liuyq-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liuyq-redis/liuyq-redis-interface/liuyq-redis-interface.iml" filepath="$PROJECT_DIR$/liuyq-redis/liuyq-redis-interface/liuyq-redis-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/liuyq-redis-service.iml" filepath="$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/liuyq-redis-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liuyq-redpacket/liuyq-redpacket.iml" filepath="$PROJECT_DIR$/liuyq-redpacket/liuyq-redpacket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liuyq-redpacket/liuyq-redpacket-interface/liuyq-redpacket-interface.iml" filepath="$PROJECT_DIR$/liuyq-redpacket/liuyq-redpacket-interface/liuyq-redpacket-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liuyq-redpacket/liuyq-repacket-service/liuyq-repacket-service.iml" filepath="$PROJECT_DIR$/liuyq-redpacket/liuyq-repacket-service/liuyq-repacket-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liuyq-solr/liuyq-solr.iml" filepath="$PROJECT_DIR$/liuyq-solr/liuyq-solr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liuyq-solr/liuyq-solr-interface/liuyq-solr-interface.iml" filepath="$PROJECT_DIR$/liuyq-solr/liuyq-solr-interface/liuyq-solr-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liuyq-solr/liuyq-solr-service/liuyq-solr-server.iml" filepath="$PROJECT_DIR$/liuyq-solr/liuyq-solr-service/liuyq-solr-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liuyq-effectivejava/liuyqeffectivejava.iml" filepath="$PROJECT_DIR$/liuyq-effectivejava/liuyqeffectivejava.iml" />
+    </modules>
+  </component>
+</project>
