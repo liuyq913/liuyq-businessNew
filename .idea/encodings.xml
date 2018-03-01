@@ -7,6 +7,7 @@
     <file url="file://$PROJECT_DIR$/liuyq-designpattern" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/liuyq-designpattern/liuyq-designpattern-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/liuyq-effectivejava" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/liuyq-redis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/liuyq-redis/liuyq-redis-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/liuyq-redis/liuyq-redis-service" charset="UTF-8" />
@@ -16,9 +17,5 @@
     <file url="file://$PROJECT_DIR$/liuyq-solr" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/liuyq-solr/liuyq-solr-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/liuyq-solr/liuyq-solr-service" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../liuyq-mongo" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../liuyq-mongo/liuy-mongo-interface" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../liuyq-mongo/liuyq-mongo-service" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../liuyqe-ffectivejava" charset="UTF-8" />
   </component>
 </project>

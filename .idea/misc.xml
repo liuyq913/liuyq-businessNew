@@ -49,6 +49,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/liuyq-effectivejava/pom.xml" />
         <option value="$PROJECT_DIR$/../liuyq-mongo/liuy-mongo-interface/pom.xml" />
         <option value="$PROJECT_DIR$/../liuyq-mongo/liuyq-mongo-service/pom.xml" />
         <option value="$PROJECT_DIR$/../liuyq-mongo/pom.xml" />

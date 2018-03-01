@@ -19,22 +19,23 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="com.liuyq.designpattern" target="1.5" />
-      <module name="com.liuyq.designpattern-service" target="1.5" />
-      <module name="com.liuyq.designpattern.interface" target="1.5" />
-      <module name="liuyq-business-commont" target="1.5" />
-      <module name="liuyq-businessNew" target="1.5" />
-      <module name="liuyq-center" target="1.5" />
+      <module name="com.liuyq.designpattern" target="1.8" />
+      <module name="com.liuyq.designpattern-service" target="1.8" />
+      <module name="com.liuyq.designpattern.interface" target="1.8" />
+      <module name="liuyq-business-commont" target="1.8" />
+      <module name="liuyq-businessNew" target="1.8" />
+      <module name="liuyq-center" target="1.8" />
       <module name="liuyq-mongo" target="1.8" />
-      <module name="liuyq-redis" target="1.5" />
-      <module name="liuyq-redis-interface" target="1.5" />
-      <module name="liuyq-redis-service" target="1.5" />
-      <module name="liuyq-redpacket" target="1.5" />
-      <module name="liuyq-redpacket-interface" target="1.5" />
-      <module name="liuyq-repacket-service" target="1.5" />
-      <module name="liuyq-solr" target="1.5" />
-      <module name="liuyq-solr-interface" target="1.5" />
-      <module name="liuyq-solr-server" target="1.5" />
+      <module name="liuyq-redis" target="1.8" />
+      <module name="liuyq-redis-interface" target="1.8" />
+      <module name="liuyq-redis-service" target="1.8" />
+      <module name="liuyq-redpacket" target="1.8" />
+      <module name="liuyq-redpacket-interface" target="1.8" />
+      <module name="liuyq-repacket-service" target="1.8" />
+      <module name="liuyq-solr" target="1.8" />
+      <module name="liuyq-solr-interface" target="1.8" />
+      <module name="liuyq-solr-server" target="1.8" />
+      <module name="liuyqeffectivejava" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
