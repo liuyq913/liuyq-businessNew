@@ -15,9 +15,10 @@
         <module>liuyq-redpacket</module>
         <module>liuyq-redis</module>
         <module>liuyq-designpattern</module>
-        <module>../liuyq-mongo</module>
+       <!-- <module>../liuyq-mongo</module>
         <module>../liuyqe-ffectivejava</module>
-        <module>liuyq-effectivejava</module>
+        <module>liuyq-effectivejava</module>-->
+        <module>liuyq-zookeeper</module>
     </modules>
 
     <properties>
@@ -87,6 +88,9 @@
         <zookeeper.version>3.4.8</zookeeper.version>
         <kafka-clients.version>0.8.2.1</kafka-clients.version>
         <joda-time.version>2.5</joda-time.version>
+        <curator-climent.version>4.0.0</curator-climent.version>
+        <curator-framework.version>4.0.0</curator-framework.version>
+        <curator-recipes.version>4.0.0</curator-recipes.version>
     </properties>
 
 
@@ -325,6 +329,21 @@
                     <artifactId>log4j</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-framework</artifactId>
+            <version>${curator-framework.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-client</artifactId>
+            <version>${curator-climent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-recipes</artifactId>
+            <version>${curator-recipes.version}</version>
         </dependency>
         <dependency>
             <groupId>com.github.sgroschupf</groupId>
