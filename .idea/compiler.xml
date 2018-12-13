@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="com.liuyq.designpattern-service" />
         <module name="com.liuyq.designpattern.interface" />
+        <module name="liuy-zookeeper" />
         <module name="liuyq-business-commont" />
         <module name="liuyq-center" />
         <module name="liuyq-redis-interface" />
@@ -22,6 +23,7 @@
       <module name="com.liuyq.designpattern" target="1.8" />
       <module name="com.liuyq.designpattern-service" target="1.8" />
       <module name="com.liuyq.designpattern.interface" target="1.8" />
+      <module name="liuy-zookeeper" target="1.8" />
       <module name="liuyq-business-commont" target="1.8" />
       <module name="liuyq-businessNew" target="1.8" />
       <module name="liuyq-center" target="1.8" />

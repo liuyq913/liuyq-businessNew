@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/liuyq-designpattern/com.liuyq.designpattern.iml" filepath="$PROJECT_DIR$/liuyq-designpattern/com.liuyq.designpattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/com.liuyq.designpattern-service.iml" filepath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/com.liuyq.designpattern-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/liuyq-designpattern/liuyq-designpattern-interface/com.liuyq.designpattern.interface.iml" filepath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpattern-interface/com.liuyq.designpattern.interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liuyq-zookeeper/liuy-zookeeper.iml" filepath="$PROJECT_DIR$/liuyq-zookeeper/liuy-zookeeper.iml" />
       <module fileurl="file://$PROJECT_DIR$/liuyq-business-common/liuyq-business-commont.iml" filepath="$PROJECT_DIR$/liuyq-business-common/liuyq-business-commont.iml" />
       <module fileurl="file://$PROJECT_DIR$/liuyq-businessNew.iml" filepath="$PROJECT_DIR$/liuyq-businessNew.iml" />
       <module fileurl="file://$PROJECT_DIR$/liuyq-center/liuyq-center.iml" filepath="$PROJECT_DIR$/liuyq-center/liuyq-center.iml" />
