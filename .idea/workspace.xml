@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0cab3b-c21a-47d4-9619-d6f77045889b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/log2/ByteWrapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/log2/Log.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/log2/LogCache.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/log2/LogConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/log2/LogFile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/log2/LogHeader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/log2/LogReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/log2/LogTailer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/log2/LogUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/log2/MemoryRegionCache.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/log2/PooledBufferAllocator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/log2/PooledByteBuffer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/log2/PooledChunk.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/log2/PooledSubpage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/log2/Recycler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/log2/Session.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/log2/SessionCache.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/log2/ThreadLocalCache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/threadpoolexecutor/ThreadPoolExecutorUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpattern-interface/target/" />
@@ -61,12 +44,22 @@
     <favorites_list name="liuyq-businessNew" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ByteWrapper.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ByteWrapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/log2/ByteWrapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+            <state relative-caret-position="22">
+              <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadPoolExecutorUtil.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/threadpoolexecutor/ThreadPoolExecutorUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -115,7 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/src/main/java/com/liuyq/designpatter/voicetime/VoiceTimeNativeDomain.java" />
         <option value="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/util/VoiceFileUtils.java" />
         <option value="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/src/main/java/com/liuyq/designpatter/decorator/first/Main.java" />
         <option value="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/src/main/java/com/liuyq/designpatter/appearance/SubImp1.java" />
@@ -166,6 +158,7 @@
         <option value="$PROJECT_DIR$/liuyq-center/src/main/resources/applicationContext-redis.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/liuyq-center/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/threadpoolexecutor/ThreadPoolExecutorUtil.java" />
       </list>
     </option>
   </component>
@@ -216,6 +209,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -316,14 +311,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="log2" />
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="liuyq-businessNew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="liuyq-businessNew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="liuyq-business-common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="liuyq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="threadpoolexecutor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -339,22 +370,22 @@
     <property name="SearchEverywhereHistoryKey" value="RedisUtil&#9;FILE&#9;file://D:/myworkspace/liuyq-businessNew/liuyq-redis/liuyq-redis-service/src/main/java/com/liuyq/redisLock/RedisUtil.java&#10;Component&#9;FILE&#9;file://D:/myeclipse/liuyq-businessNew/liuyq-businessNew/liuyq-designpattern/liuyq-designpatter-service/src/main/java/com/liuyq/designpatter/decorator/first/Component.java&#10;Observable&#9;PSI&#9;JAVA://com.liuyq.designpatter.observer.easy.Observable&#10;Observer&#9;PSI&#9;JAVA://com.liuyq.designpatter.observer.advance.Observer" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.liuyq.designpatter.appearance" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.liuyq.redisLock.token" />
-      <recent name="com.liuyq.redisLock" />
-      <recent name="com.liuyq.zookeeper.lock" />
-      <recent name="com.liuyq.common.enums" />
-      <recent name="com.liuyq.mongo.bo" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\myworkspace\liuyq-businessNew\liuyq-business-common\src\main\java\com\liuyq\common\redis" />
       <recent name="D:\myworkspace\liuyq-businessNew\liuyq-center\src\main\resources" />
       <recent name="D:\myeclipse\liuyq-businessNew\liuyq-mongo\liuyq-mongo-service\src\main\resources" />
       <recent name="D:\myeclipse\liuyq-businessNew\liuyq-mongo\liuy-mongo-interface\src\main\java\com\liuyq\mongo\enums" />
       <recent name="D:\myeclipse\liuyq-businessNew\liuyq-businessNew" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.liuyq.common.threadpoolexecutor" />
+      <recent name="com.liuyq.redisLock.token" />
+      <recent name="com.liuyq.redisLock" />
+      <recent name="com.liuyq.zookeeper.lock" />
+      <recent name="com.liuyq.common.enums" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.liuyq.designpatter.appearance" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.liuyq-businessNew">
@@ -1034,7 +1065,8 @@
       <workItem from="1541656194349" duration="13000" />
       <workItem from="1542854349251" duration="34000" />
       <workItem from="1544668551273" duration="6854000" />
-      <workItem from="1544691001171" duration="31000" />
+      <workItem from="1544691001171" duration="75000" />
+      <workItem from="1544693424291" duration="99000" />
     </task>
     <task id="LOCAL-00001" summary="删除">
       <created>1519873752479</created>
@@ -1064,7 +1096,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544681118916</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="redistoken">
+      <created>1544691056922</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1544691056922</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1100,7 +1139,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182614000" />
+    <option name="totallyTimeSpent" value="182757000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="0" />
@@ -1130,7 +1169,7 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35325265" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35854766" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1168,7 +1207,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/javaSE/jdk1.8.0_60/jre/lib/rt.jar!/java/util/AbstractQueue.class" />
     <entry file="file://$PROJECT_DIR$/liuyq-solr/liuyq-solr-service/src/main/java/com/liuyq/solr/domain/PrivateCarSearchNativeDomain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-88">
@@ -1517,8 +1555,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/log2/ByteWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+        <state relative-caret-position="22">
+          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/threadpoolexecutor/ThreadPoolExecutorUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
