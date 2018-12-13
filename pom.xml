@@ -67,7 +67,7 @@
         <jetty-util.version>6.1.26</jetty-util.version>
         <jsp-api.version>6.0.29</jsp-api.version>
         <jstl.version>1.2</jstl.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.4</junit.version>
         <logback.version>1.1.7</logback.version>
         <log4j.version>1.2.15</log4j.version>
         <logback-kafka-appender.version>0.1.0</logback-kafka-appender.version>
@@ -385,6 +385,11 @@
             <groupId>commons-fileupload</groupId>
             <artifactId>commons-fileupload</artifactId>
             <version>${commons-fileupload.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
         </dependency>
     </dependencies>
 

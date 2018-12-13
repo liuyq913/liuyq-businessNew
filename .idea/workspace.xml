@@ -26,7 +26,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_CR3.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javazoom_jlayer_1_0_1.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_4.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_15.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_jpountz_lz4_lz4_1_2_0.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_core_5_7_0.xml" />
@@ -52,7 +52,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_hawtdispatch_hawtdispatch_1_11.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_hawtdispatch_hawtdispatch_transport_1_11.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_mqtt_client_mqtt_client_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jasypt_jasypt_1_9_0.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_15_0_GA.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_marshalling_jboss_marshalling_1_4_11_Final.xml" />
@@ -86,48 +85,164 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_1_RELEASE.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_1_7.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_7_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-center/src/main/resources/applicationContext-redis.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/src/main/java/com/liuyq/redisLock/token/TokenGenerate.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-business-common/target/classes/com/liuyq/Pages/Page.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-business-common/target/classes/com/liuyq/common/enums/ContentEnum.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-business-common/target/classes/com/liuyq/common/exception/BTException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-business-common/target/classes/com/liuyq/common/exception/LiuyqException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-business-common/target/classes/com/liuyq/common/mongo/AggregationBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-business-common/target/classes/com/liuyq/common/mongo/MongoUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-business-common/target/classes/com/liuyq/common/mongo/beanUtil/MongoBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-business-common/target/classes/com/liuyq/common/mongo/beanUtil/MongoDocumentKit.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-business-common/target/classes/com/liuyq/common/mongo/beanUtil/MongoKit$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-business-common/target/classes/com/liuyq/common/mongo/beanUtil/MongoKit$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-business-common/target/classes/com/liuyq/common/mongo/beanUtil/MongoKit$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-business-common/target/classes/com/liuyq/common/mongo/beanUtil/MongoKit$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-business-common/target/classes/com/liuyq/common/mongo/beanUtil/MongoKit$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-business-common/target/classes/com/liuyq/common/mongo/beanUtil/MongoKit$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-business-common/target/classes/com/liuyq/common/mongo/beanUtil/MongoKit$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-business-common/target/classes/com/liuyq/common/mongo/beanUtil/MongoKit.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-business-common/target/classes/com/liuyq/common/mongo/geospatial/MongoGeospatial.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-business-common/target/classes/com/liuyq/common/mongo/geospatial/TestBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-business-common/target/classes/com/liuyq/common/util/BeanUtil$ConversionCustomizble.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-business-common/target/classes/com/liuyq/common/util/BeanUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-business-common/target/classes/com/liuyq/common/util/CheckUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-business-common/target/classes/com/liuyq/common/util/DateUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-business-common/target/classes/com/liuyq/common/util/JSONUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-business-common/target/classes/com/liuyq/common/util/VoiceFileUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/abstractfactory/ConcreteCreator1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/abstractfactory/Creator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/abstractfactory/ProductA.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/abstractfactory/ProductA1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/abstractfactory/ProductB.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/abstractfactory/ProductB1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/adapter/classadapter/HashMapObserverAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/adapter/defaultadapter/DefaultPerson.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/adapter/defaultadapter/Person.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/adapter/defaultadapter/Person1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/adapter/objectadapter/BaseEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/adapter/objectadapter/ObservableBaseEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/adapter/objectadapter/ObservableUser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/adapter/objectadapter/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/appearance/Client.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/appearance/Facade.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/appearance/FacadeImp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/appearance/Sub1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/appearance/Sub2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/appearance/Sub3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/appearance/SubImp1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/appearance/SubImp2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/appearance/SubImp3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/commandpattern/Bug.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/commandpattern/Demand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/commandpattern/Problem.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/commandpattern/ProductManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/commandpattern/Programmer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/commandpattern/Salesman.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/commandpattern/Task.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/commandpattern/Work.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/decorator/first/Component.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/decorator/first/ConcreteComponent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/decorator/first/ConcreteDecoratorA.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/decorator/first/ConcreteDecoratorB.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/decorator/first/Decorator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/decorator/first/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/easyfactory/HttpServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/easyfactory/LoginServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/easyfactory/LoginoutServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/easyfactory/RegisterServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/easyfactory/Servlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/easyfactory/ServletFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/factorymethod/Light.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/factorymethod/LightA.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/factorymethod/LightAFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/factorymethod/producerInterface.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/modulemethod/first/AbstractPageBuilder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/modulemethod/first/MyPageBuilder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/modulemethod/first/PageBuilder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/observer/advance/Client.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/observer/advance/Observable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/observer/advance/Observer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/observer/advance/Reader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/observer/advance/Writer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/observer/advance/WriterManager$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/observer/advance/WriterManager$WriterManagerInstance.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/observer/advance/WriterManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/observer/easy/Observable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/observer/easy/Observer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/observer/easy/Observer1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/observer/eventdriven/Reader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/observer/eventdriven/Writer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/observer/eventdriven/WriterEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/observer/eventdriven/WriterListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/observer/eventdriven/WriterManager$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/observer/eventdriven/WriterManager$WriterManagerInstance.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/observer/eventdriven/WriterManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/observer/eventdriven/jseventdriver/Button.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/observer/eventdriven/jseventdriver/ButtonEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/observer/eventdriven/jseventdriver/ButtonJsp$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/observer/eventdriven/jseventdriver/ButtonJsp$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/observer/eventdriven/jseventdriver/ButtonJsp$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/observer/eventdriven/jseventdriver/ButtonJsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/observer/eventdriven/jseventdriver/ClickEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/observer/eventdriven/jseventdriver/ClickListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/observer/eventdriven/jseventdriver/Client.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/observer/eventdriven/jseventdriver/DblClickEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/observer/eventdriven/jseventdriver/DblClickListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/observer/eventdriven/jseventdriver/MouseMoveEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/observer/eventdriven/jseventdriver/MouseMoveListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/proxy/dynamic/proxy/ConnectionProxy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/proxy/dynamic/proxy/DynamicProxy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/proxy/statics/proxy/Connection.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/proxy/statics/proxy/ConnectionProxy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/proxy/statics/proxy/CreateClassTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/proxy/statics/proxy/DateSourse$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/proxy/statics/proxy/DateSourse$DataSourceInstance.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/proxy/statics/proxy/DateSourse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/singleton/AudioLength.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/singleton/InnerClassSingleton$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/singleton/InnerClassSingleton$SingletonInstance.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/singleton/InnerClassSingleton.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/singleton/NetFileTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/singleton/Singleton.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/singleton/TestSingleton$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/singleton/TestSingleton.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/singleton/TestVoiceTime.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/easy/Client.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/easy/ConcreteStrategyA.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/easy/ConcreteStrategyB.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/easy/Context.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/easy/Strategy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/easy/test.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/notifelse/CalPrice.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/notifelse/CalPriceFactory$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/notifelse/CalPriceFactory$CalPriceFactoryInstance.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/notifelse/CalPriceFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/notifelse/Common.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/notifelse/Customer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/notifelse/Domain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/notifelse/GoldVip.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/notifelse/SuperVip.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/notifelse/TotalValidRegion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/notifelse/Vip.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/notifelsenext/CalPrice.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/notifelsenext/CalPriceFactory$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/notifelsenext/CalPriceFactory$CalPriceFactoryInstance.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/notifelsenext/CalPriceFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/notifelsenext/CalPriceProxy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/notifelsenext/Client.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/notifelsenext/Common.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/notifelsenext/Customer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/notifelsenext/GoldVip.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/notifelsenext/OnceValidRegion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/notifelsenext/OneTDTwoH.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/notifelsenext/SuperVip.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/notifelsenext/TotalValidRegion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/notifelsenext/TwotDFourH.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/notifelsenext/ValidRegion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/notifelsenext/Vip.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/trueexample/CalPrice.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/trueexample/CalPriceFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/trueexample/Common.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/trueexample/Customer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/trueexample/GoldVip.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/trueexample/SuperVip.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/strategy/trueexample/Vip.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/voicetime/VoiceTimeNativeDomain$VoiceProcessor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/voicetime/VoiceTimeNativeDomain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/voicetime/VoiceTimeRemoteDomain$places.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/target/classes/com/liuyq/designpatter/voicetime/VoiceTimeRemoteDomain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpattern-interface/target/classes/com/liuyq/designpatter/voicetime/VoiceTimeDomain.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/liuyq_center_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/liuyq_center_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-business-common/liuyq-business-commont.iml" afterPath="$PROJECT_DIR$/liuyq-business-common/liuyq-business-commont.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-businessNew.iml" afterPath="$PROJECT_DIR$/liuyq-businessNew.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-center/liuyq-center.iml" afterPath="$PROJECT_DIR$/liuyq-center/liuyq-center.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-center/src/main/resources/applicationContext-redis.xml" afterPath="$PROJECT_DIR$/liuyq-center/src/main/resources/applicationContext-redis.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-center/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/liuyq-center/src/main/resources/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-center/src/main/resources/redis.properties" afterPath="$PROJECT_DIR$/liuyq-center/src/main/resources/redis.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-designpattern/com.liuyq.designpattern.iml" afterPath="$PROJECT_DIR$/liuyq-designpattern/com.liuyq.designpattern.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/com.liuyq.designpattern-service.iml" afterPath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/com.liuyq.designpattern-service.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpattern-interface/com.liuyq.designpattern.interface.iml" afterPath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpattern-interface/com.liuyq.designpattern.interface.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-redis/liuyq-redis-interface/liuyq-redis-interface.iml" afterPath="$PROJECT_DIR$/liuyq-redis/liuyq-redis-interface/liuyq-redis-interface.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/liuyq-redis-service.iml" afterPath="$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/liuyq-redis-service.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/src/main/java/com/liuyq/redisLock/RedisUtil.java" afterPath="$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/src/main/java/com/liuyq/redisLock/RedisUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/pom.xml" afterPath="$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/src/main/java/com/liuyq/redisLock/token/TokenGenerate.java" afterPath="$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/src/main/java/com/liuyq/redisLock/token/TokenGenerate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/src/test/java/com/liuyq/reddis/RedisLockHandlerTest.java" afterPath="$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/src/test/java/com/liuyq/reddis/RedisLockHandlerTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-redis/liuyq-redis.iml" afterPath="$PROJECT_DIR$/liuyq-redis/liuyq-redis.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-redpacket/liuyq-redpacket-interface/liuyq-redpacket-interface.iml" afterPath="$PROJECT_DIR$/liuyq-redpacket/liuyq-redpacket-interface/liuyq-redpacket-interface.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-redpacket/liuyq-redpacket.iml" afterPath="$PROJECT_DIR$/liuyq-redpacket/liuyq-redpacket.iml" />
@@ -136,6 +251,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-solr/liuyq-solr-service/liuyq-solr-server.iml" afterPath="$PROJECT_DIR$/liuyq-solr/liuyq-solr-service/liuyq-solr-server.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-solr/liuyq-solr.iml" afterPath="$PROJECT_DIR$/liuyq-solr/liuyq-solr.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-zookeeper/liuy-zookeeper.iml" afterPath="$PROJECT_DIR$/liuyq-zookeeper/liuy-zookeeper.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/src/main/java/com/liuyq/redisLock/RedisLock.java" afterPath="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/redis/RedisLock.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/src/main/java/com/liuyq/redisLock/RedisLockHandler.java" afterPath="$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/src/main/java/com/liuyq/redisLock/token/RedisLockHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/src/main/java/com/liuyq/redisLock/RedisUtil.java" afterPath="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/redis/RedisUtil.java" />
     </list>
     <ignored path="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpattern-interface/target/" />
     <ignored path="$PROJECT_DIR$/liuyq-center/target/" />
@@ -177,25 +296,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TokenGenerate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/src/main/java/com/liuyq/redisLock/token/TokenGenerate.java">
+      <file leaf-file-name="RedisLockHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/src/main/java/com/liuyq/redisLock/token/RedisLockHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            <state relative-caret-position="1171">
+              <caret line="262" column="7" lean-forward="false" selection-start-line="262" selection-start-column="7" selection-end-line="262" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2469#2470#0" expanded="true" />
-                <element signature="e#2537#2538#0" expanded="true" />
+                <element signature="e#901#902#0" expanded="true" />
+                <element signature="e#943#944#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedisUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/src/main/java/com/liuyq/redisLock/RedisUtil.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="378" column="55" lean-forward="false" selection-start-line="378" selection-start-column="55" selection-end-line="378" selection-end-column="55" />
+            <state relative-caret-position="385">
+              <caret line="391" column="31" lean-forward="false" selection-start-line="391" selection-start-column="31" selection-end-line="391" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext-redis.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/liuyq-center/src/main/resources/applicationContext-redis.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="792">
+              <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+              <folding>
+                <element signature="e#749#774#0" expanded="true" />
+                <element signature="e#817#840#0" expanded="true" />
+                <element signature="e#888#916#0" expanded="true" />
+                <element signature="e#1077#1102#0" expanded="true" />
+                <element signature="e#1146#1171#0" expanded="true" />
+                <element signature="e#1215#1240#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="redis.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liuyq-center/src/main/resources/redis.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -205,37 +354,7 @@
         <entry file="file://$PROJECT_DIR$/liuyq-center/src/main/resources/dubbo-runtime.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
-              <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liuyq-center/src/main/resources/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="21" column="53" lean-forward="false" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext-redis.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liuyq-center/src/main/resources/applicationContext-redis.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VoiceFileUtils.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/util/VoiceFileUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="176" column="12" lean-forward="false" selection-start-line="176" selection-start-column="12" selection-end-line="176" selection-end-column="12" />
+              <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -244,28 +363,53 @@
       <file leaf-file-name="applicationContext-dubbo.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/liuyq-center/src/main/resources/applicationContext-dubbo.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+            <state relative-caret-position="154">
+              <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applicationContext-mongodb.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liuyq-center/src/main/resources/applicationContext-mongodb.xml">
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liuyq-center/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="198">
+              <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="solr.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liuyq-center/src/main/resources/solr.properties">
+      <file leaf-file-name="TokenGenerate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/src/main/java/com/liuyq/redisLock/token/TokenGenerate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-198">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RMIConnectionImpl.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/javax/management/remote/rmi/RMIConnectionImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="55">
+              <caret line="828" column="0" lean-forward="false" selection-start-line="828" selection-start-column="0" selection-end-line="828" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -298,6 +442,9 @@
       <find>lock</find>
       <find>redis.pool.maxActive</find>
       <find>red</find>
+      <find>redis.shardInfo.name</find>
+      <find>shardedJedisPool</find>
+      <find>junit.version</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -311,9 +458,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/src/main/java/com/liuyq/designpatter/decorator/first/Decorator.java" />
-        <option value="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/src/main/java/com/liuyq/designpatter/decorator/first/ConcreteDecoratorA.java" />
-        <option value="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/src/main/java/com/liuyq/designpatter/decorator/first/ConcreteDecoratorB.java" />
         <option value="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/src/main/java/com/liuyq/designpatter/voicetime/VoiceTimeNativeDomain.java" />
         <option value="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/util/VoiceFileUtils.java" />
         <option value="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/src/main/java/com/liuyq/designpatter/decorator/first/Main.java" />
@@ -354,13 +498,16 @@
         <option value="$PROJECT_DIR$/liuyq-effectivejava/src/main/java/com/effectivejave/PhoneNumber.java" />
         <option value="$PROJECT_DIR$/liuy-zookeeper/src/main/java/com/liuyq/zookeeper/InterProcessMutexTest.java" />
         <option value="$PROJECT_DIR$/liuy-zookeeper/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/liuyq-zookeeper/src/main/java/com/liuyq/zookeeper/InterProcessMutexTest.java" />
         <option value="$PROJECT_DIR$/liuyq-zookeeper/src/main/java/com/liuyq/zookeeper/lock/InterProcessMutexTest.java" />
         <option value="$PROJECT_DIR$/liuyq-zookeeper/src/main/java/com/liuyq/zookeeper/lock/InterProcessReadWriteLockTest.java" />
         <option value="$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/src/main/java/com/liuyq/redisLock/RedisUtil.java" />
-        <option value="$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/src/main/java/com/liuyq/redisLock/token/TokenGenerate.java" />
         <option value="$PROJECT_DIR$/liuyq-center/src/main/resources/redis.properties" />
+        <option value="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/redis/RedisLock.java" />
+        <option value="$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/src/main/java/com/liuyq/redisLock/token/TokenGenerate.java" />
+        <option value="$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/src/main/java/com/liuyq/redisLock/token/RedisLockHandler.java" />
+        <option value="$PROJECT_DIR$/liuyq-center/src/main/resources/applicationContext-redis.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/liuyq-center/src/main/resources/applicationContext.xml" />
       </list>
     </option>
@@ -435,7 +582,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-redis" />
+              <option name="myItemId" value="liuyq-designpattern" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -449,7 +596,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-center" />
+              <option name="myItemId" value="liuyq-business-common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -463,29 +610,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-center" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-businessNew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-businessNew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-center" />
+              <option name="myItemId" value="liuyq-business-common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -497,7 +622,83 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="liuyq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="liuyq-businessNew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="liuyq-businessNew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="liuyq-business-common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="liuyq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="liuyq-businessNew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="liuyq-businessNew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="liuyq-business-common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="liuyq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -523,18 +724,18 @@
       <recent name="com.liuyq.designpatter.appearance" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.liuyq.redisLock.token" />
       <recent name="com.liuyq.redisLock" />
       <recent name="com.liuyq.zookeeper.lock" />
       <recent name="com.liuyq.common.enums" />
       <recent name="com.liuyq.mongo.bo" />
-      <recent name="com.liuyq.designpatter.appearance" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\myworkspace\liuyq-businessNew\liuyq-business-common\src\main\java\com\liuyq\common\redis" />
       <recent name="D:\myworkspace\liuyq-businessNew\liuyq-center\src\main\resources" />
       <recent name="D:\myeclipse\liuyq-businessNew\liuyq-mongo\liuyq-mongo-service\src\main\resources" />
       <recent name="D:\myeclipse\liuyq-businessNew\liuyq-mongo\liuy-mongo-interface\src\main\java\com\liuyq\mongo\enums" />
       <recent name="D:\myeclipse\liuyq-businessNew\liuyq-businessNew" />
-      <recent name="D:\myeclipse\liuyq-businessNew\liuyq-businessNew\liuyq-business-common\src\main\java\com\liuyq\common" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.liuyq-businessNew">
@@ -1213,7 +1414,7 @@
       <workItem from="1540352937460" duration="7803000" />
       <workItem from="1541656194349" duration="13000" />
       <workItem from="1542854349251" duration="34000" />
-      <workItem from="1544668551273" duration="4154000" />
+      <workItem from="1544668551273" duration="6699000" />
     </task>
     <task id="LOCAL-00001" summary="删除">
       <created>1519873752479</created>
@@ -1229,7 +1430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540367734872</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="zookper的interProcssMutex锁和interProcessReadWriteLock（读写锁）测试类">
+      <created>1544672960827</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1544672960827</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1265,7 +1473,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179883000" />
+    <option name="totallyTimeSpent" value="182428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -1284,7 +1492,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44006848" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8617201" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40809444" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1292,11 +1500,11 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761577" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3237774" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6694772" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2700454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34795764" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1332,55 +1540,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/exception/LiuyqException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/exception/BTException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/src/main/java/com/liuyq/designpatter/singleton/SingletonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/src/main/java/com/liuyq/designpatter/singleton/PhoneNumber.java" />
-    <entry file="file://$PROJECT_DIR$/liuyq-effectivejava/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/../liuyqe-ffectivejava/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/liuyq-effectivejava/src/main/java/com/effectivejave/PhoneNumber.java" />
-    <entry file="file://$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/src/main/java/com/liuyq/designpatter/singleton/TestVoiceTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/javaSE/jdk1.8.0_60/jre/lib/rt.jar!/java/util/jar/Attributes.class" />
     <entry file="jar://D:/javaSE/jdk1.8.0_60/jre/lib/rt.jar!/java/util/jar/JarOutputStream.class" />
     <entry file="jar://D:/javaSE/jdk1.8.0_60/jre/lib/rt.jar!/java/util/AbstractQueue.class" />
-    <entry file="file://$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/src/main/java/com/liuyq/redisLock/RedisLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="30" column="69" lean-forward="true" selection-start-line="30" selection-start-column="69" selection-end-line="30" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/src/main/java/com/liuyq/redisLock/RedisLockHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/liuyq-solr/liuyq-solr-service/src/main/java/com/liuyq/solr/domain/PrivateCarSearchNativeDomain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-88">
@@ -1517,17 +1679,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/liuyq-zookeeper/src/main/java/com/liuyq/zookeeper/InterProcessMutexTest.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/liuyq-zookeeper/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
         <state />
@@ -1592,6 +1743,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/util/VoiceFileUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="185" column="22" lean-forward="true" selection-start-line="185" selection-start-column="22" selection-end-line="185" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/liuyq-center/src/main/resources/solr.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1610,28 +1769,127 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/src/main/java/com/liuyq/redisLock/RedisUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="378" column="55" lean-forward="false" selection-start-line="378" selection-start-column="55" selection-end-line="378" selection-end-column="55" />
+        <state relative-caret-position="167">
+          <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/src/main/java/com/liuyq/redisLock/RedisLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-836">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/src/main/java/com/liuyq/redisLock/RedisLockHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/redis/RedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-redis/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/redis/RedisLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/redis/RedisLockHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.1.RELEASE/spring-core-4.3.1.RELEASE.jar!/org/springframework/core/type/classreading/RecursiveAnnotationAttributesVisitor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/javax/management/remote/rmi/RMIConnectionImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="828" column="0" lean-forward="false" selection-start-line="828" selection-start-column="0" selection-end-line="828" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/src/main/java/com/liuyq/redisLock/token/TokenGenerate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        <state relative-caret-position="-198">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2469#2470#0" expanded="true" />
-            <element signature="e#2537#2538#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/liuyq-center/src/main/resources/redis.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/src/main/java/com/liuyq/redisLock/token/RedisLockHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1171">
+          <caret line="262" column="7" lean-forward="false" selection-start-line="262" selection-start-column="7" selection-end-line="262" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="391" column="31" lean-forward="false" selection-start-line="391" selection-start-column="31" selection-end-line="391" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -1639,40 +1897,39 @@
     <entry file="file://$PROJECT_DIR$/liuyq-center/src/main/resources/dubbo-runtime.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
-          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/liuyq-center/src/main/resources/applicationContext-dubbo.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        <state relative-caret-position="154">
+          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/liuyq-center/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="21" column="53" lean-forward="false" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+        <state relative-caret-position="198">
+          <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/liuyq-center/src/main/resources/applicationContext-redis.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/util/VoiceFileUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="176" column="12" lean-forward="false" selection-start-line="176" selection-start-column="12" selection-end-line="176" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="792">
+          <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+          <folding>
+            <element signature="e#749#774#0" expanded="true" />
+            <element signature="e#817#840#0" expanded="true" />
+            <element signature="e#888#916#0" expanded="true" />
+            <element signature="e#1077#1102#0" expanded="true" />
+            <element signature="e#1146#1171#0" expanded="true" />
+            <element signature="e#1215#1240#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,7 +1,6 @@
 package com.liuyq.reddis;
 
 import com.liuyq.redisLock.IRedisLockHandler;
-import com.liuyq.redisLock.RedisLockHandler;
 import org.junit.Test;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;

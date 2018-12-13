@@ -1,6 +1,6 @@
 package com.liuyq.redisLock.token;
 
-import com.liuyq.redisLock.RedisUtil;
+import com.liuyq.common.redis.RedisUtil;
 
 import javax.annotation.Resource;
 import java.util.UUID;

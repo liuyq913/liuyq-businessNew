@@ -19,7 +19,7 @@
     <aop:aspectj-autoproxy proxy-target-class="true" expose-proxy="true"/>
     <!--<import resource="classpath:applicationContext-mongodb.xml"/>-->
     <import resource="classpath:applicationContext-dubbo.xml"/>
-    <import resource="applicationContext-redis.xml"/>
+    <import resource="classpath:applicationContext-redis.xml"/>
 
 
     <!-- 使用annotation 自动注册bean, 并保证@Required、@Autowired的属性被注入 -->
