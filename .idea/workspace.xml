@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b0cab3b-c21a-47d4-9619-d6f77045889b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/threadpoolexecutor/ThreadPoolExecutorUtil.java" />
+    <list default="true" id="4b0cab3b-c21a-47d4-9619-d6f77045889b" name="Default" comment="线程池工具类">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/GlobalProperties/GlobalPropertiesUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpattern-interface/target/" />
@@ -55,11 +55,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThreadPoolExecutorUtil.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ThreadPoolExecutorUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/threadpoolexecutor/ThreadPoolExecutorUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="269">
               <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GlobalPropertiesUtil.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/GlobalProperties/GlobalPropertiesUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PropertiesLoaderUtils.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.1.RELEASE/spring-core-4.3.1.RELEASE.jar!/org/springframework/core/io/support/PropertiesLoaderUtils.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="89" column="29" lean-forward="false" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -108,7 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/util/VoiceFileUtils.java" />
         <option value="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/src/main/java/com/liuyq/designpatter/decorator/first/Main.java" />
         <option value="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/src/main/java/com/liuyq/designpatter/appearance/SubImp1.java" />
         <option value="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/src/main/java/com/liuyq/designpatter/appearance/Sub2.java" />
@@ -159,6 +178,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/liuyq-center/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/threadpoolexecutor/ThreadPoolExecutorUtil.java" />
+        <option value="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/GlobalProperties/GlobalPropertiesUtil.java" />
       </list>
     </option>
   </component>
@@ -349,7 +369,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="threadpoolexecutor" />
+              <option name="myItemId" value="GlobalProperties" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -378,11 +398,11 @@
       <recent name="D:\myeclipse\liuyq-businessNew\liuyq-businessNew" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.liuyq.common.GlobalProperties" />
       <recent name="com.liuyq.common.threadpoolexecutor" />
       <recent name="com.liuyq.redisLock.token" />
       <recent name="com.liuyq.redisLock" />
       <recent name="com.liuyq.zookeeper.lock" />
-      <recent name="com.liuyq.common.enums" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.liuyq.designpatter.appearance" />
@@ -1066,7 +1086,7 @@
       <workItem from="1542854349251" duration="34000" />
       <workItem from="1544668551273" duration="6854000" />
       <workItem from="1544691001171" duration="75000" />
-      <workItem from="1544693424291" duration="99000" />
+      <workItem from="1544693424291" duration="274000" />
     </task>
     <task id="LOCAL-00001" summary="删除">
       <created>1519873752479</created>
@@ -1103,7 +1123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544691056922</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="线程池工具类">
+      <created>1544693536402</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1544693536402</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1139,7 +1166,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182757000" />
+    <option name="totallyTimeSpent" value="182932000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="0" />
@@ -1194,7 +1221,8 @@
     <MESSAGE value="删除" />
     <MESSAGE value="zookper的interProcssMutex锁和interProcessReadWriteLock（读写锁）测试类" />
     <MESSAGE value="redistoken" />
-    <option name="LAST_COMMIT_MESSAGE" value="redistoken" />
+    <MESSAGE value="线程池工具类" />
+    <option name="LAST_COMMIT_MESSAGE" value="线程池工具类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1207,20 +1235,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/liuyq-solr/liuyq-solr-service/src/main/java/com/liuyq/solr/domain/PrivateCarSearchNativeDomain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-88">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-solr/liuyq-solr-service/src/main/java/com/liuyq/solr/model/PrivateCarDocument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1144">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/liuyq-solr/liuyq-solr-service/src/main/java/com/liuyq/solr/repository/mySolrInter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -1565,6 +1579,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.1.RELEASE/spring-core-4.3.1.RELEASE.jar!/org/springframework/core/io/support/PropertiesLoaderUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="89" column="29" lean-forward="false" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/GlobalProperties/GlobalPropertiesUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
           <folding />
         </state>
       </provider>
