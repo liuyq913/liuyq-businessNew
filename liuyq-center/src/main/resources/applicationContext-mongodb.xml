@@ -6,6 +6,8 @@
     http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
+
+
     <bean id="mongoSession" class="com.liuyq.mongo.MongoSession">
         <property name="domains" >
             <value>${mongo.domains}</value>

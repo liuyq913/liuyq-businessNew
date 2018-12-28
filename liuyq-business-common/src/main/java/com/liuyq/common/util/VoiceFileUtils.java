@@ -1,29 +1,20 @@
 package com.liuyq.common.util;
 
-import it.sauronsoftware.jave.Encoder;
-import it.sauronsoftware.jave.MultimediaInfo;
-import javazoom.jl.decoder.Bitstream;
 import javazoom.jl.decoder.BitstreamException;
-import javazoom.jl.decoder.Header;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
-import java.io.*;
-import java.net.HttpURLConnection;
-import java.net.URL;
-import java.net.URLConnection;
+import java.io.IOException;
 
 /**
  * Created by liuyq on 2017/12/19.
  */
 public class VoiceFileUtils {
-    private static final Logger LOGGER = LoggerFactory.getLogger(VoiceFileUtils.class);
-    /**
+  /*  private static final Logger LOGGER = LoggerFactory.getLogger(VoiceFileUtils.class);
+    *//**
      * 将文件流读入到目标文件中
      * @param ins
      * @param file
      * @throws IOException
-     */
+     *//*
     public static void inputstreamtofile(InputStream ins, File file) throws IOException {
         OutputStream os = new FileOutputStream(file);
         int bytesRead = 0;
@@ -35,11 +26,11 @@ public class VoiceFileUtils {
         ins.close();
     }
 
-    /**
+    *//**
      * 递归删除文件目录及目录里面的文件
      * @param dir
      * @return
-     */
+     *//*
     private static boolean deleteDir(File dir) {
         if (dir.isDirectory()) {
             File[] children = dir.listFiles();
@@ -110,13 +101,13 @@ public class VoiceFileUtils {
         return iputstream == null ? false : true;
     }
 
-    /**
+    *//**
      * 获取mp3格式的音频时长
      * @param url
      * @return
      * @throws IOException
      * @throws BitstreamException
-     */
+     *//*
     private static Long getMp3Time(String url) throws IOException{
         URL urlfile = new URL(url);
         URLConnection con = null;
@@ -148,11 +139,11 @@ public class VoiceFileUtils {
         return new Long(time / 1000);
     }
 
-    /**
+    *//**
      *获取m4a的音频时长（有点坑）
      * @param stringurl
      * @return
-     */
+     *//*
     private static synchronized Long getM4aTime(String stringurl) throws IOException {
         URL url = new URL(stringurl);
         HttpURLConnection uc = (HttpURLConnection) url.openConnection();
@@ -193,5 +184,5 @@ public class VoiceFileUtils {
             }
         }
         return time;
-    }
+    }*/
 }
