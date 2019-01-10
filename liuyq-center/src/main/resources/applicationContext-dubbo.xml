@@ -8,13 +8,13 @@
 	http://code.alibabatech.com/schema/dubbo
 	http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
-	<bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
-		<property name="locations"> <!-- PropertyPlaceholderConfigurer类中有个locations属性，接收的是一个数组，即我们可以在下面配好多个properties文件 -->
+	<!--<bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations"> &lt;!&ndash; PropertyPlaceholderConfigurer类中有个locations属性，接收的是一个数组，即我们可以在下面配好多个properties文件 &ndash;&gt;
 			<list>
 				<value>classpath:dubbo-runtime.properties</value>
 			</list>
 		</property>
-	</bean>
+	</bean>-->
 
 
 	<!-- Dubbo配置 -->
@@ -24,6 +24,6 @@
 	<dubbo:protocol name="${protocol.name}" port="${protocol.port}" threads="500"/>
 	<dubbo:provider filter="-exception"/>
 
-	<dubbo:service group="liu" interface="com.liuyq.solr.domain.PrivateCarSearchDomain" version="3.1.0.3" ref="privateCarSearchDomain" validation="false" timeout="500000" retries="0"/>
+	<dubbo:service interface="com.liuyq.solr.domain.PrivateCarSearchDomain" version="3.1.0.3" ref="privateCarSearchDomain" validation="false" timeout="500000" retries="0"/>
 </beans>
 
