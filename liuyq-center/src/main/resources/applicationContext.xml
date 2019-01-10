@@ -53,6 +53,9 @@
         <constructor-arg index="0" ref="solrClientFactory"/>
     </bean>
 
+
+    <bean id="postProcessor" class="com.liuyq.springtest.process.PostProcessor"/>
+    <bean id="postProcessorB" class="com.liuyq.springtest.process.PostProcessorB"/>
     <!--activemq相关配置-->
     <!--配置链接工厂
     <bean id="connectionFactory" class="org.apache.activemq.spring.ActiveMQConnectionFactory"
