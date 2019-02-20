@@ -16,7 +16,7 @@ public class CreateClassTest {
     public void testClass()throws Exception{
         //TestProxy:代理类的名称  Connection 接口名称
         byte[] bytes = ProxyGenerator.generateProxyClass("TestProxy", new Class[]{Connection.class});
-        File file = new File("D:\\test\\testProxy.class");
+        File file = new File("D:\\demo\\testProxy.class");
         FileOutputStream fos = new FileOutputStream(file);
         fos.write(bytes);
         fos.flush();

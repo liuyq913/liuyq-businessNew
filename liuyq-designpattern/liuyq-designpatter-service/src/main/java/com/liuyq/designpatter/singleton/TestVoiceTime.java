@@ -72,7 +72,7 @@ public class TestVoiceTime {
         ins.close();
     }
     /*@Test
-    public void test()throws Exception{
+    public void demo()throws Exception{
         String fileUrl = "http://192.168.100.142/public/M00/00/E0/wKhkjVolLW6ABxxfAAAnmn4pMTU433.m4a";
         URL url = new URL(fileUrl);
         HttpURLConnection uc = (HttpURLConnection) url.openConnection();
@@ -82,7 +82,7 @@ public class TestVoiceTime {
         File current = new File(".");
         System.out.println(current.getCanonicalPath());
 
-        File file = new File("D:\\test\\test.m4a");
+        File file = new File("D:\\demo\\demo.m4a");
         inputstreamtofile(iputstream, file);
         Encoder encoder = new Encoder();
         try {

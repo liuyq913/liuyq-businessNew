@@ -1,4 +1,4 @@
-package com.liuyq.springtest.test;
+package com.liuyq.springtest.demo;
 
 import org.junit.Test;
 import org.springframework.beans.BeanUtils;

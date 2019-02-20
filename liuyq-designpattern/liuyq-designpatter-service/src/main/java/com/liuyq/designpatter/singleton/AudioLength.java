@@ -28,7 +28,7 @@ public class AudioLength {
         uc.setDoInput(true);//设置是否要从 URL 连接读取数据,默认为true
         uc.connect();
         InputStream iputstream = uc.getInputStream();
-        File file = new File("D:\\test\\test.m4a");
+        File file = new File("D:\\demo\\demo.m4a");
         inputstreamtofile(iputstream, file);
         Clip clip = AudioSystem.getClip();
         AudioInputStream ais = AudioSystem.getAudioInputStream(file);

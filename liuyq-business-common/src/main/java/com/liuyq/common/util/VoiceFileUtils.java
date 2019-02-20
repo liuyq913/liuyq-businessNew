@@ -71,7 +71,7 @@ public class VoiceFileUtils {
                     //刪除test目录
                     try {
                         File current = new File(".");
-                        File catalog = new File(current.getCanonicalPath() + "//test");
+                        File catalog = new File(current.getCanonicalPath() + "//demo");
                         if (catalog.exists()) {
                             deleteDir(catalog);
                         }
@@ -151,13 +151,13 @@ public class VoiceFileUtils {
         uc.connect();
         InputStream iputstream = uc.getInputStream();
         File current = new File(".");
-        File catalog =new File(current.getCanonicalPath()+"//test");
+        File catalog =new File(current.getCanonicalPath()+"//demo");
         LOGGER.error("目录在:"+catalog.getCanonicalPath());
         if(!catalog.exists()){
             catalog.mkdir(); //不存在则创建
         }
         String end = stringurl.substring(stringurl.lastIndexOf("/")+1,stringurl.length());
-        File file = new File(current.getCanonicalPath()+"//test//"+end);
+        File file = new File(current.getCanonicalPath()+"//demo//"+end);
         if(!file.exists()){
             file.createNewFile();
             inputstreamtofile(iputstream, file);

@@ -19,6 +19,8 @@
         <module>../liuyqe-ffectivejava</module>
         <module>liuyq-effectivejava</module>-->
         <module>liuyq-zookeeper</module>
+        <module>liuyq-springtest</module>
+        <module>liuyq-dynamic</module>
     </modules>
 
     <properties>
@@ -396,11 +398,17 @@
             <version>${javax.servlet-api.version}</version>
         </dependency>
 
-      <!--  <dependency>
-            <groupId>fakepath</groupId>
-            <artifactId>jave</artifactId>
-            <version>1.0.2</version>
-        </dependency>-->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>${aspectjweaver.version}</version>
+        </dependency>
+
+        <!--  <dependency>
+              <groupId>fakepath</groupId>
+              <artifactId>jave</artifactId>
+              <version>1.0.2</version>
+          </dependency>-->
     </dependencies>
 
     <!--构建工具-->

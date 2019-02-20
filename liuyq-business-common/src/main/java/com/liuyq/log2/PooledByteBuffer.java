@@ -37,8 +37,8 @@ public class PooledByteBuffer {
     int offset; // 当前ByteBuffer在memory中的偏移量
     private int len;
     private int maxLen;
-    private int recycleNum; // test
-    private int allocNum; // test
+    private int recycleNum; // demo
+    private int allocNum; // demo
 
     PooledByteBuffer(Recycler.Handler handler, int maxCapacity) {
         this.handler = handler;

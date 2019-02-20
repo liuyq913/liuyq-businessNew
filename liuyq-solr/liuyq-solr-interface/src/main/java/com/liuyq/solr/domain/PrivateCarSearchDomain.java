@@ -17,4 +17,6 @@ public interface PrivateCarSearchDomain {
                                          String key, Integer pageSize, Integer currentPage);
 
     void search(PrivateCarQueryBo privateCarQueryBo, int pageSize, int currentPage);
+
+    void setUser(Integer id);
 }

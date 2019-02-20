@@ -6,6 +6,7 @@ import com.liuyq.solr.bo.PrivateCarDocumentBo;
 import com.liuyq.solr.bo.PrivateCarQueryBo;
 import com.liuyq.solr.model.PrivateCarDocument;
 import com.liuyq.solr.service.PrivateCarSearchServer;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.solr.core.query.result.FacetPage;
@@ -21,6 +22,8 @@ import java.util.List;
 public class PrivateCarSearchNativeDomain implements PrivateCarSearchDomain{
     @Resource
     private PrivateCarSearchServer privateCarSearchServer;
+    @Value("${redis.timeout}")
+    private Integer timeOut;
 
     @Override
     public List<PrivateCarDocumentBo> findPrivateCarDocumentByEentryID(Integer entryID) {
@@ -39,6 +42,11 @@ public class PrivateCarSearchNativeDomain implements PrivateCarSearchDomain{
     @Override
     public void search(PrivateCarQueryBo privateCarQueryBo, int pageSize, int currentPage) {
         privateCarSearchServer.Search(privateCarQueryBo, pageSize, currentPage);
+    }
+
+    @Override
+    public void setUser(Integer id) {
+
     }
 
 }
