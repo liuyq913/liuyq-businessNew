@@ -1,5 +1,9 @@
 package com.liuyq.springtest.demo;
 
+import com.liuyq.springtest.demo.aoptest.Interface.ISay;
+import com.liuyq.springtest.demo.aoptest.proxy.SayHelloProxy;
+import com.liuyq.springtest.demo.aoptest.service.LogService;
+import com.liuyq.springtest.demo.aoptest.service.SayService;
 import com.liuyq.springtest.service.UserService;
 import org.junit.Test;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
@@ -26,9 +30,10 @@ public class test {
         System.out.println(list.get(1)+","+list.get(2));
     }
 
+
     @Test
     public void test3(){
-        String s = "{\"code\":\"0\",\"data\":{\"orderNo\":\"201901071604590000000794191745\",\"shareUrl\":\"http://www.99cherry.com/share/#/order-detail/201901071604590000000794191745\"}}";
-        System.out.println(s.length());
+        ISay iHello = (ISay) new SayHelloProxy().bind(new SayService(),new LogService());
+        iHello.sayHello("liuyq");
     }
 }
