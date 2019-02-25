@@ -8,7 +8,7 @@ import java.lang.reflect.Proxy;
  * Created by liuyq on 2017/12/5.
  */
 public class DynamicProxy implements InvocationHandler {
-    private Object source;
+    private Object source; //代理类
 
     public DynamicProxy(Object source) {
         super();
