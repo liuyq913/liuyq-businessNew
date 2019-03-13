@@ -34,9 +34,9 @@ public class Operator {
     @AfterReturning(pointcut="pointCut()",returning="returnVal")
     public void afterReturn(JoinPoint joinPoint, Object returnVal){ //(6)
         System.out.println("@AfterReturning：模拟日志记录功能...");
-        System.out.println("@AfterReturning：目标方法为：" +
-                joinPoint.getSignature().getDeclaringTypeName() +
-                "." + joinPoint.getSignature().getName());
+        System.out.println("@AfterReturning：目标方法包为：" +
+                joinPoint.getSignature().getDeclaringTypeName());
+        System.out.println("@AfterReturning：目标方法为："+joinPoint.getSignature().getName());
         System.out.println("@AfterReturning：参数为：" +
                 Arrays.toString(joinPoint.getArgs()));
         System.out.println("@AfterReturning：返回值为：" + returnVal);
@@ -54,6 +54,7 @@ public class Operator {
         System.out.println("AOP Aronud before..."); //（1）
         Object object = null;
         try {
+            System.out.println(pjp.getArgs());
             object = pjp.proceed(); //（3）
         } catch (Throwable e) {
             e.printStackTrace();

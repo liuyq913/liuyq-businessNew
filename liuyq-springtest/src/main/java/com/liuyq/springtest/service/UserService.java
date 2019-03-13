@@ -25,7 +25,7 @@ public class UserService {
     }
 
 
-    public String manyAdvices(String param1, String param2) {
+    public String manyAdvices(Model1 param1, Model1 param2) {
         System.out.println("方法：manyAdvices");
         return param1 + " 、" + param2;
     }

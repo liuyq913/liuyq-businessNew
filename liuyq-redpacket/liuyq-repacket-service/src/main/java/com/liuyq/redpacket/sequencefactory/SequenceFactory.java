@@ -11,6 +11,7 @@ import org.junit.Test;
 
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * Created by liuyq on 2017/10/30.
@@ -104,7 +105,7 @@ public  class SequenceFactory {
         for(int i=0;i<4;i++){
             list.add(new Person("1","a",1+"").toString());
         }
-     //   Stream<Person> stream = Stream.of(new Person("1", "aa", "12"), new Person("1", "bb", "13"), new Person("3", "cc", "14"));
+       Stream<Person> stream = Stream.of(new Person("1", "aa", "12"), new Person("1", "bb", "13"), new Person("3", "cc", "14"));
         Map<String,List<String>> map =  list.stream().collect(Collectors.groupingBy(Object::toString));
         System.out.println(12);
     }

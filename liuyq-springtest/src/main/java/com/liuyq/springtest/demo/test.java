@@ -4,6 +4,7 @@ import com.liuyq.springtest.demo.aoptest.Interface.ISay;
 import com.liuyq.springtest.demo.aoptest.proxy.SayHelloProxy;
 import com.liuyq.springtest.demo.aoptest.service.LogService;
 import com.liuyq.springtest.demo.aoptest.service.SayService;
+import com.liuyq.springtest.service.Model1;
 import com.liuyq.springtest.service.UserService;
 import org.junit.Test;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
@@ -19,7 +20,13 @@ public class test {
     public void test1() throws Exception {
         FileSystemXmlApplicationContext resource = new FileSystemXmlApplicationContext("classpath:applicationContext.xml");
         UserService userService = (UserService) resource.getBean("userService");
-        userService.manyAdvices("1","2");
+        Model1 model1 = new Model1();
+        model1.setId("1");
+        model1.setName("liuyq");
+        Model1 model2 = new Model1();
+        model1.setId("2");
+        model1.setName("liuyqqing");
+        userService.manyAdvices(model1, model2);
     }
 
     @Test
