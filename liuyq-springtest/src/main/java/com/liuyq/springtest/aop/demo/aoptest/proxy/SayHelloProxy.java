@@ -1,4 +1,4 @@
-package com.liuyq.springtest.demo.aoptest.proxy;
+package com.liuyq.springtest.aop.demo.aoptest.proxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

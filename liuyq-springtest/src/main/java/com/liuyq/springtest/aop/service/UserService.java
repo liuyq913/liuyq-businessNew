@@ -1,4 +1,4 @@
-package com.liuyq.springtest.service;
+package com.liuyq.springtest.aop.service;
 
 import org.springframework.stereotype.Service;
 

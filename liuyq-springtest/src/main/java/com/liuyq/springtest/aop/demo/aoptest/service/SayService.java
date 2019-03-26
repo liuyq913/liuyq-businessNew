@@ -1,6 +1,6 @@
-package com.liuyq.springtest.demo.aoptest.service;
+package com.liuyq.springtest.aop.demo.aoptest.service;
 
-import com.liuyq.springtest.demo.aoptest.Interface.ISay;
+import com.liuyq.springtest.aop.demo.aoptest.Interface.ISay;
 
 /**
  * Created by liuyq on 2019/2/21.

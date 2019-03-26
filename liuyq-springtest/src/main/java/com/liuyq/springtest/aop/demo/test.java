@@ -1,11 +1,11 @@
-package com.liuyq.springtest.demo;
+package com.liuyq.springtest.aop.demo;
 
-import com.liuyq.springtest.demo.aoptest.Interface.ISay;
-import com.liuyq.springtest.demo.aoptest.proxy.SayHelloProxy;
-import com.liuyq.springtest.demo.aoptest.service.LogService;
-import com.liuyq.springtest.demo.aoptest.service.SayService;
-import com.liuyq.springtest.service.Model1;
-import com.liuyq.springtest.service.UserService;
+import com.liuyq.springtest.aop.demo.aoptest.Interface.ISay;
+import com.liuyq.springtest.aop.demo.aoptest.proxy.SayHelloProxy;
+import com.liuyq.springtest.aop.demo.aoptest.service.LogService;
+import com.liuyq.springtest.aop.demo.aoptest.service.SayService;
+import com.liuyq.springtest.aop.service.Model1;
+import com.liuyq.springtest.aop.service.UserService;
 import org.junit.Test;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
 

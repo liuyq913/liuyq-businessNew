@@ -1,4 +1,4 @@
-package com.liuyq.springtest.entities;
+package com.liuyq.springtest.aop.entities;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;

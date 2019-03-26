@@ -1,4 +1,4 @@
-package com.liuyq.springtest.demo.aoptest.Interface;
+package com.liuyq.springtest.aop.demo.aoptest.Interface;
 
 import java.lang.reflect.Method;
 
