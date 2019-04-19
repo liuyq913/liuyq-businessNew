@@ -11,6 +11,9 @@
   <listener>
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
   </listener>
+  <listener>
+    <listener-class>com.liuyq.springtest.applicationListener.MyInItProcess</listener-class>
+  </listener>
 
   <!-- DruidStatView -->
   <servlet>
