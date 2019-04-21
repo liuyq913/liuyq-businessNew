@@ -3,6 +3,7 @@ package com.liuyq.springtest.aop.entities;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 import java.util.Arrays;
@@ -13,10 +14,11 @@ import java.util.Arrays;
 //切面类  优先级
 @Component
 @Aspect
+@Order(1)
 public class Operator {
 
     //第一个* 表示返回值，（*）表示所有的类型，第二个* 表示所有的类，*(..):最后这个星号表示方法名，*号表示所有的方法，后面括弧里面表示方法的参数，两个句点表示任何参数。
-    @Pointcut("execution(* com.liuyq.springtest.service..*.*(..))")
+    @Pointcut("execution(* com.liuyq.springtest.aop.service..*.*(..))")
 
     public void pointCut(){}
 

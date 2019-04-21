@@ -1,4 +1,4 @@
-package com.liuyq.springtest.aop.service;
+package com.liuyq.springtest.aop.model;
 
 /**
  * Created by liuyq on 2019/3/13.

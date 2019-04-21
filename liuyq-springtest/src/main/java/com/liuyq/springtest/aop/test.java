@@ -1,10 +1,11 @@
-package com.liuyq.springtest.aop.demo;
+package com.liuyq.springtest.aop;
 
 import com.liuyq.springtest.aop.demo.aoptest.Interface.ISay;
 import com.liuyq.springtest.aop.demo.aoptest.proxy.SayHelloProxy;
 import com.liuyq.springtest.aop.demo.aoptest.service.LogService;
 import com.liuyq.springtest.aop.demo.aoptest.service.SayService;
-import com.liuyq.springtest.aop.service.Model1;
+import com.liuyq.springtest.aop.model.Model1;
+import com.liuyq.springtest.aop.service.FooService;
 import com.liuyq.springtest.aop.service.UserService;
 import org.junit.Test;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
@@ -52,5 +53,19 @@ public class test {
         boolean simpleMatch = PatternMatchUtils.simpleMatch(patterns, "updateUser");
         System.out.println(simpleMatch);
 
+    }
+
+    @Test
+    public void testWithIn(){
+        FileSystemXmlApplicationContext resource = new FileSystemXmlApplicationContext("classpath:applicationContext.xml");
+        FooService fooService = (FooService) resource.getBean("fooService");
+        fooService.method1();
+    }
+
+    @Test
+    public void testUserLog() throws Exception {
+        FileSystemXmlApplicationContext resource = new FileSystemXmlApplicationContext("classpath:applicationContext.xml");
+        UserService userService = (UserService) resource.getBean("userService");
+        userService.add();
     }
 }

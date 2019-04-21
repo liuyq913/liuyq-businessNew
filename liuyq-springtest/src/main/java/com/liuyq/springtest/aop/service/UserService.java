@@ -1,5 +1,7 @@
 package com.liuyq.springtest.aop.service;
 
+import com.liuyq.springtest.aop.annotation.UserLog;
+import com.liuyq.springtest.aop.model.Model1;
 import org.springframework.stereotype.Service;
 
 /**
@@ -8,10 +10,11 @@ import org.springframework.stereotype.Service;
 @Service("userService")
 public class UserService {
 
+    @UserLog(description = "用户新增")
     public Integer add() throws Exception {
         System.out.println("UserService add()");
-        throw new Exception("测试异常");
-        //return 1;
+       // throw new Exception("测试异常");
+        return 1;
     }
 
     public boolean delete() {

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:web="http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd "
+         version="2.4">
+
+  <context-param>
+    <param-name>contextConfigLocation</param-name>
+    <param-value>classpath:applicationContext.xml</param-value>
+  </context-param>
+  <listener>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
+
+  <!-- DruidStatView -->
+  <servlet>
+    <servlet-name>DruidStatView</servlet-name>
+    <!-- 展示监控页面的servlet -->
+    <servlet-class>com.alibaba.druid.support.http.StatViewServlet</servlet-class>
+    <!--<init-param>-->
+    <!--&lt;!&ndash; 允许访问监控界面的IP &ndash;&gt;-->
+    <!--<param-name>allow</param-name>-->
+    <!--<param-value>127.0.0.1</param-value>-->
+    <!--</init-param>-->
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DruidStatView</servlet-name>
+    <url-pattern>/druid/*</url-pattern>
+  </servlet-mapping>
+
+</web-app>
