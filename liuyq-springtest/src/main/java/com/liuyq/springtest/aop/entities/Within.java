@@ -14,6 +14,7 @@ import org.springframework.stereotype.Component;
 @Order(0)
 public class Within {
 
+    //用了这个AnyJoinpontAnnotation注解的类全会被拦截
     @Before("@within(com.liuyq.springtest.aop.annotation.AnyJoinpontAnnotation)")
     public void doBefore(JoinPoint joinPoint) {
         System.out.println(joinPoint.getTarget().getClass());
