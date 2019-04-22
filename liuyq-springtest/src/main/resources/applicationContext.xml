@@ -20,7 +20,7 @@
 
 
     <context:component-scan base-package="com.liuyq.springtest"/>
-    <aop:aspectj-autoproxy />
+    <aop:aspectj-autoproxy proxy-target-class="true"/>
 
  <!--测试FactoryBean-->
     <bean id="car" class="com.liuyq.springtest.ioc.factorybean.MyCarFactoryBean">
@@ -32,4 +32,13 @@
         <property name="car" ref="car"/>
     </bean>
 
+    <bean id="withinAspect" class="com.liuyq.springtest.aop.entities.Within"/>
+
+
+    <aop:config>
+        <aop:aspect id="myaspect" ref="withinAspect">
+            <aop:pointcut id="privatePointCut" expression="@within(com.liuyq.springtest.aop.annotation.AnyJoinpontAnnotation)"/>
+            <aop:before method="doBefore" pointcut-ref="privatePointCut"/>
+        </aop:aspect>
+    </aop:config>
 </beans>

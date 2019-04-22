@@ -53,7 +53,7 @@ public class Operator {
 
     @Around("pointCut()")
     public Object  around(ProceedingJoinPoint pjp){
-        System.out.println("AOP Aronud before..."); //（1）
+        System.out.println("AOP Aronud before..."); //（1）可以做安全检查
         Object object = null;
         try {
             System.out.println(pjp.getArgs());
