@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="liuyq-springtest:war">
+    <output-path>$PROJECT_DIR$/liuyq-springtest/target</output-path>
+    <root id="archive" name="indi-zc-lele.war">
+      <element id="artifact" artifact-name="liuyq-springtest:war exploded" />
+    </root>
+  </artifact>
+</component>

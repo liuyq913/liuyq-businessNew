@@ -1,21 +1,16 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="liuyq-center:war exploded">
-    <output-path>$PROJECT_DIR$/liuyq-center/target/indi-zc-lele</output-path>
+  <artifact type="exploded-war" name="liuyq-springtest:war exploded">
+    <output-path>$PROJECT_DIR$/liuyq-springtest/target/indi-zc-lele</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="liuyq-center" />
+          <element id="module-output" name="liuyq-springtest" />
         </element>
         <element id="directory" name="lib">
-          <element id="archive" name="liuyq-solr-server-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="liuyq-solr-server" />
+          <element id="archive" name="liuyq-business-commont-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="liuyq-business-commont" />
           </element>
-          <element id="archive" name="liuyq-solr-interface-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="liuyq-solr-interface" />
-          </element>
-          <element id="archive" name="liuyq-springtest-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="liuyq-springtest" />
-          </element>
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.9" />
           <element id="library" level="project" name="Maven: cglib:cglib:3.2.10" />
           <element id="library" level="project" name="Maven: org.ow2.asm:asm:7.0" />
           <element id="library" level="project" name="Maven: org.apache.ant:ant:1.10.3" />
@@ -105,16 +100,12 @@
           <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.7" />
           <element id="library" level="project" name="Maven: org.bouncycastle:bcprov-jdk15on:1.48" />
-          <element id="archive" name="liuyq-business-commont-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="liuyq-business-commont" />
-          </element>
-          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.9" />
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/liuyq-center/target/indi-zc-lele/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/liuyq-springtest/target/indi-zc-lele/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="liuyq-center/web/Web" />
+      <element id="javaee-facet-resources" facet="liuyq-springtest/web/Web" />
     </root>
   </artifact>
 </component>

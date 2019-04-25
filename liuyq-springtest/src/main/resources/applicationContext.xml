@@ -16,16 +16,13 @@
     http://www.springframework.org/schema/context/spring-context.xsd">
 
 
-
-
-
     <context:component-scan base-package="com.liuyq.springtest"/>
     <aop:aspectj-autoproxy proxy-target-class="true"/>
 
- <!--测试FactoryBean-->
+    <!--测试FactoryBean-->
     <bean id="car" class="com.liuyq.springtest.ioc.factorybean.MyCarFactoryBean">
         <property name="make" value="makeing car"/>
-        <property name="year"  value="123"/>
+        <property name="year" value="123"/>
     </bean>
 
     <bean id="person" class="com.liuyq.springtest.ioc.factorybean.Person">
@@ -34,10 +31,18 @@
 
     <bean id="withinAspect" class="com.liuyq.springtest.aop.entities.Within"/>
 
+   <!-- <bean id="newsBean" class="com.liuyq.springtest.aop.model.FXNewsBean" scope="prototype"/>
+    <bean id="mockNewsPersister" class="com.liuyq.springtest.aop.demo.aoptest.service.MockNewsPersister">
+        <property name="newsBean">
+            <ref bean="newsBean"/>
+        </property>
+    </bean>-->
+
 
     <aop:config>
         <aop:aspect id="myaspect" ref="withinAspect">
-            <aop:pointcut id="privatePointCut" expression="@within(com.liuyq.springtest.aop.annotation.AnyJoinpontAnnotation)"/>
+            <aop:pointcut id="privatePointCut"
+                          expression="@within(com.liuyq.springtest.aop.annotation.AnyJoinpontAnnotation)"/>
             <aop:before method="doBefore" pointcut-ref="privatePointCut"/>
         </aop:aspect>
     </aop:config>

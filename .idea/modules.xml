@@ -18,6 +18,8 @@
       <module fileurl="file://$PROJECT_DIR$/liuyq-solr/liuyq-solr.iml" filepath="$PROJECT_DIR$/liuyq-solr/liuyq-solr.iml" />
       <module fileurl="file://$PROJECT_DIR$/liuyq-solr/liuyq-solr-interface/liuyq-solr-interface.iml" filepath="$PROJECT_DIR$/liuyq-solr/liuyq-solr-interface/liuyq-solr-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/liuyq-solr/liuyq-solr-service/liuyq-solr-server.iml" filepath="$PROJECT_DIR$/liuyq-solr/liuyq-solr-service/liuyq-solr-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liuyq-springtest/liuyq-springtest.iml" filepath="$PROJECT_DIR$/liuyq-springtest/liuyq-springtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liuyq-dynamic/liuyq.dynamic.iml" filepath="$PROJECT_DIR$/liuyq-dynamic/liuyq.dynamic.iml" />
     </modules>
   </component>
 </project>

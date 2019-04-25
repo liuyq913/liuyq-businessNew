@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="liuyq.dynamic:war">
+    <output-path>$PROJECT_DIR$/liuyq-dynamic/target</output-path>
+    <root id="archive" name="liuyq.dynamic-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="liuyq.dynamic:war exploded" />
+    </root>
+  </artifact>
+</component>
