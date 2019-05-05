@@ -40,6 +40,8 @@
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/liuyq-center" />
+    <file type="web" url="file://$PROJECT_DIR$/liuyq-dynamic" />
+    <file type="web" url="file://$PROJECT_DIR$/liuyq-springtest" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

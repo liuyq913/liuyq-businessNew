@@ -17,6 +17,8 @@
         <module name="liuyq-repacket-service" />
         <module name="liuyq-solr-interface" />
         <module name="liuyq-solr-server" />
+        <module name="liuyq-springtest" />
+        <module name="liuyq.dynamic" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -37,6 +39,8 @@
       <module name="liuyq-solr" target="1.8" />
       <module name="liuyq-solr-interface" target="1.8" />
       <module name="liuyq-solr-server" target="1.8" />
+      <module name="liuyq-springtest" target="1.8" />
+      <module name="liuyq.dynamic" target="1.8" />
       <module name="liuyqeffectivejava" target="1.8" />
     </bytecodeTargetLevel>
   </component>
