@@ -29,9 +29,11 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="liuyq-solr-server" />
     <orderEntry type="module" module-name="liuyq-solr-interface" />
-    <orderEntry type="module" module-name="liuyq-business-commont" />
-    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.9" level="project" />
     <orderEntry type="module" module-name="liuyq-springtest" />
+    <orderEntry type="library" name="Maven: cglib:cglib:3.2.10" level="project" />
+    <orderEntry type="library" name="Maven: org.ow2.asm:asm:7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.ant:ant:1.10.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.ant:ant-launcher:1.10.3" level="project" />
     <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.1.7" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:4.3.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:4.3.1.RELEASE" level="project" />
@@ -117,5 +119,7 @@
     <orderEntry type="library" name="Maven: javax.servlet:javax.servlet-api:3.1.0" level="project" />
     <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.8.7" level="project" />
     <orderEntry type="library" name="Maven: org.bouncycastle:bcprov-jdk15on:1.48" level="project" />
+    <orderEntry type="module" module-name="liuyq-business-commont" />
+    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.9" level="project" />
   </component>
 </module>

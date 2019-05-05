@@ -37,7 +37,7 @@ public class SayHelloProxy implements InvocationHandler {
         //反射得到操作者的end方法
         Method end = clazz.getDeclaredMethod("end", new Class[]{Method.class});
         //反射执行end方法
-        end.invoke(this.proxy, new Object[]{method});
+        result = end.invoke(this.proxy, new Object[]{method});
         return result;
     }
 }

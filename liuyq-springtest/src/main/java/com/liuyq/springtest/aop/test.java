@@ -3,8 +3,10 @@ package com.liuyq.springtest.aop;
 import com.liuyq.springtest.aop.demo.aoptest.Interface.ISay;
 import com.liuyq.springtest.aop.demo.aoptest.proxy.SayHelloProxy;
 import com.liuyq.springtest.aop.demo.aoptest.service.LogService;
+import com.liuyq.springtest.aop.demo.aoptest.service.MockNewsPersister;
 import com.liuyq.springtest.aop.demo.aoptest.service.SayService;
 import com.liuyq.springtest.aop.model.Model1;
+import com.liuyq.springtest.aop.model.ModelSub;
 import com.liuyq.springtest.aop.service.FooService;
 import com.liuyq.springtest.aop.service.UserService;
 import org.junit.Test;
@@ -66,6 +68,16 @@ public class test {
     public void testUserLog() throws Exception {
         FileSystemXmlApplicationContext resource = new FileSystemXmlApplicationContext("classpath:applicationContext.xml");
         UserService userService = (UserService) resource.getBean("userService");
-        userService.add();
+        ModelSub modelSub = new ModelSub();
+        modelSub.setRequestNo("1223");
+        userService.add(modelSub);
+    }
+
+    @Test
+    public void test5(){
+        FileSystemXmlApplicationContext resource = new FileSystemXmlApplicationContext(("classpath:applicationContext.xml"));
+        MockNewsPersister persister = (MockNewsPersister)resource.getBean("mockPersister");
+        persister.persistNews();
+        persister.persistNews();
     }
 }

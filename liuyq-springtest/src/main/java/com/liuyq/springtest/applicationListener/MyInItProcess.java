@@ -4,6 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
+import org.springframework.stereotype.Component;
 
 /**
  * Created by liuyq on 2019/4/16.
@@ -13,6 +14,7 @@ import org.springframework.context.event.ContextRefreshedEvent;
  * 此处的初始化是指：所有的Bean被成功装载，后处理Bean被检测并激活，
  * 所有Singleton Bean 被预实例化，ApplicationContext容器已就绪可用
  */
+@Component
 public class MyInItProcess implements ApplicationListener<ContextRefreshedEvent>{
 
     private static final Logger LOGGER = LoggerFactory.getLogger(MyInItProcess.class);
