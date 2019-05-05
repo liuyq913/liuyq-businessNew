@@ -1,7 +1,6 @@
 package com.liuyq.springtest.ioc.applicationContext.event;
 
 
-import org.springframework.context.ApplicationEvent;
 import org.springframework.context.ApplicationListener;
 import org.springframework.stereotype.Component;
 
@@ -10,12 +9,10 @@ import org.springframework.stereotype.Component;
  * 事件监听器
  */
 @Component("methodExecutionEventListener")
-public class MethodExecutionEventListener implements ApplicationListener {
+public class MethodExecutionEventListener implements ApplicationListener<MethodExecutionEvent> {
     @Override
-    public void onApplicationEvent(ApplicationEvent applicationEvent) {
-        if(applicationEvent instanceof MethodExecutionEvent){
-            MethodExecutionEvent event = (MethodExecutionEvent)applicationEvent;
-            System.out.println("【"+event.getMethodName()+"】"+"--"+event.getMethodExecutionStatus().getContent());
-        }
+    public void onApplicationEvent(MethodExecutionEvent methodExecutionEvent) {
+        System.out.println("【" + methodExecutionEvent.getMethodName() + "】" + "--" + methodExecutionEvent.getMethodExecutionStatus().getContent());
+
     }
 }

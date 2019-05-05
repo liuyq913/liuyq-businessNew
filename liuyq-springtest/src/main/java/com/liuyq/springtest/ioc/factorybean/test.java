@@ -6,6 +6,7 @@ import org.springframework.beans.BeanWrapper;
 import org.springframework.beans.BeanWrapperImpl;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
 
 /**
  * Created by liuyq on 2019/3/26.
@@ -39,6 +40,17 @@ public class test {
         ApplicationContext context = new ClassPathXmlApplicationContext("classpath:applicationContext.xml");
 
         MethodExeuctionEventPublisher methodExeuctionEventPublisher = (MethodExeuctionEventPublisher)context.getBean("methodExeuctionEventPublisher");
-        methodExeuctionEventPublisher.methodToMonitor();
+        //methodExeuctionEventPublisher.methodToMonitor();
+        System.out.println(methodExeuctionEventPublisher.hashCode());
+        MethodExeuctionEventPublisher methodExeuctionEventPublisher2 = (MethodExeuctionEventPublisher)context.getBean("methodExeuctionEventPublisher");
+        System.out.println(methodExeuctionEventPublisher2.hashCode());
+    }
+
+    @Test
+    public void test4(){
+        FileSystemXmlApplicationContext context =  new FileSystemXmlApplicationContext("classpath:applicationContext.xml");
+
+        Person person = (Person) context.getBean("person");
+        System.out.println(person);
     }
 }
