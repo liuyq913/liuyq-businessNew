@@ -16,8 +16,6 @@
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.9" level="project" />
-    <orderEntry type="library" name="Maven: org.bouncycastle:bcprov-jdk15on:1.48" level="project" />
     <orderEntry type="module" module-name="liuyq-redpacket-interface" />
     <orderEntry type="module" module-name="liuyq-business-commont" />
     <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.9" level="project" />

@@ -1,51 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b0cab3b-c21a-47d4-9619-d6f77045889b" name="Default" comment="spring test类">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/liuyq_dynamic_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/liuyq_dynamic_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/liuyq_springtest_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/liuyq_springtest_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_2_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_10_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_10_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_48.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_61.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/util/BigDecimalUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/util/ClassUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/util/RdArrayUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/util/RdNumberUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/util/RdStringUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/util/ReflectUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/util/StringValidUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/demo/aoptest/Interface/IFXNewsPersister.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/demo/aoptest/proxy/SayHelloCglibProxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/demo/aoptest/service/MockNewsPersister.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/model/FXNewsBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/model/ModelSub.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/liuyq_center_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/liuyq_center_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+    <list default="true" id="4b0cab3b-c21a-47d4-9619-d6f77045889b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/service/AwareConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/service/AwareService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-business-common/liuyq-business-commont.iml" afterPath="$PROJECT_DIR$/liuyq-business-common/liuyq-business-commont.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-businessNew.iml" afterPath="$PROJECT_DIR$/liuyq-businessNew.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-center/liuyq-center.iml" afterPath="$PROJECT_DIR$/liuyq-center/liuyq-center.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-designpattern/com.liuyq.designpattern.iml" afterPath="$PROJECT_DIR$/liuyq-designpattern/com.liuyq.designpattern.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-center/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/liuyq-center/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/com.liuyq.designpattern-service.iml" afterPath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpatter-service/com.liuyq.designpattern-service.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpattern-interface/com.liuyq.designpattern.interface.iml" afterPath="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpattern-interface/com.liuyq.designpattern.interface.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springtest/liuyq-springtest.iml" afterPath="$PROJECT_DIR$/liuyq-springtest/liuyq-springtest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springtest/pom.xml" afterPath="$PROJECT_DIR$/liuyq-springtest/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/demo/aoptest/proxy/SayHelloProxy.java" afterPath="$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/demo/aoptest/proxy/SayHelloProxy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/entities/Operator.java" afterPath="$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/entities/Operator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/entities/UserLogAspect.java" afterPath="$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/entities/UserLogAspect.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/service/UserService.java" afterPath="$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-redis/liuyq-redis-interface/liuyq-redis-interface.iml" afterPath="$PROJECT_DIR$/liuyq-redis/liuyq-redis-interface/liuyq-redis-interface.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/liuyq-redis-service.iml" afterPath="$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/liuyq-redis-service.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-redis/liuyq-redis.iml" afterPath="$PROJECT_DIR$/liuyq-redis/liuyq-redis.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-redpacket/liuyq-redpacket-interface/liuyq-redpacket-interface.iml" afterPath="$PROJECT_DIR$/liuyq-redpacket/liuyq-redpacket-interface/liuyq-redpacket-interface.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-redpacket/liuyq-redpacket.iml" afterPath="$PROJECT_DIR$/liuyq-redpacket/liuyq-redpacket.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-redpacket/liuyq-repacket-service/liuyq-repacket-service.iml" afterPath="$PROJECT_DIR$/liuyq-redpacket/liuyq-repacket-service/liuyq-repacket-service.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-solr/liuyq-solr-interface/liuyq-solr-interface.iml" afterPath="$PROJECT_DIR$/liuyq-solr/liuyq-solr-interface/liuyq-solr-interface.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-solr/liuyq-solr-service/liuyq-solr-server.iml" afterPath="$PROJECT_DIR$/liuyq-solr/liuyq-solr-service/liuyq-solr-server.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-solr/liuyq-solr.iml" afterPath="$PROJECT_DIR$/liuyq-solr/liuyq-solr.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/test.java" afterPath="$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-springtest/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/liuyq-springtest/src/main/resources/applicationContext.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyq-zookeeper/liuy-zookeeper.iml" afterPath="$PROJECT_DIR$/liuyq-zookeeper/liuy-zookeeper.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/liuyq-designpattern/liuyq-designpattern-interface/target/" />
@@ -77,37 +52,42 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/liuyq-businessNew$VoiceTimeRemoteDomain_test.coverage" NAME="VoiceTimeRemoteDomain.test Coverage Results" MODIFIED="1513566428173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.liuyq.designpatter.voicetime.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/liuyq-businessNew$test_testUserLog.coverage" NAME="test.testUserLog Coverage Results" MODIFIED="1556182458517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.liuyq.springtest.aop.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/liuyq-businessNew$VoiceTimeRemoteDomain_test.coverage" NAME="VoiceTimeRemoteDomain.test Coverage Results" MODIFIED="1513566428173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.liuyq.designpatter.voicetime.*</FILTER>
     </SUITE>
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="liuyq-businessNew" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/test.java">
+      <file leaf-file-name="AwareService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/service/AwareService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="68" column="27" lean-forward="true" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
-              <folding />
+            <state relative-caret-position="200">
+              <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#509#510#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#624#625#0" expanded="true" />
+                <element signature="e#676#677#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MockNewsPersister.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/demo/aoptest/service/MockNewsPersister.java">
+      <file leaf-file-name="AwareConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/service/AwareConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="133">
+              <caret line="7" column="50" lean-forward="false" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,81 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LogService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/demo/aoptest/service/LogService.java">
+      <file leaf-file-name="test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IFXNewsPersister.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/demo/aoptest/Interface/IFXNewsPersister.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserLogAspect.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/entities/UserLogAspect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Method.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/reflect/Method.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="483" column="52" lean-forward="true" selection-start-line="483" selection-start-column="52" selection-end-line="483" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractAspectJAdvice.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/aspectj/AbstractAspectJAdvice.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="429" column="44" lean-forward="true" selection-start-line="429" selection-start-column="44" selection-end-line="429" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Object.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/Object.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="62" column="33" lean-forward="false" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReflectUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/util/ReflectUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Operator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/entities/Operator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+            <state relative-caret-position="409">
+              <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -208,9 +118,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>add</find>
-      <find>singletonInstance</find>
-      <find>targetSource</find>
       <find>targetName</find>
       <find>aop:aspectj-autoproxy</find>
       <find>模拟日志记录功能...</find>
@@ -238,7 +145,13 @@
       <find>loadBeanDefi</find>
       <find>persistNewes</find>
       <find>decimal</find>
+      <find>getMergedBeanDefinition</find>
+      <find>getMergedLocalBeanDefinition</find>
+      <find>ApplicationListener</find>
     </findStrings>
+    <dirStrings>
+      <dir>E:\workspace\liuyq-businessNew</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -251,9 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/liuy-zookeeper/pom.xml" />
-        <option value="$PROJECT_DIR$/liuyq-zookeeper/src/main/java/com/liuyq/zookeeper/InterProcessMutexTest.java" />
-        <option value="$PROJECT_DIR$/liuyq-zookeeper/src/main/java/com/liuyq/zookeeper/lock/InterProcessMutexTest.java" />
         <option value="$PROJECT_DIR$/liuyq-zookeeper/src/main/java/com/liuyq/zookeeper/lock/InterProcessReadWriteLockTest.java" />
         <option value="$PROJECT_DIR$/liuyq-redis/liuyq-redis-service/src/main/java/com/liuyq/redisLock/RedisUtil.java" />
         <option value="$PROJECT_DIR$/liuyq-center/src/main/resources/redis.properties" />
@@ -285,7 +195,6 @@
         <option value="$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/demo/aoptest/proxy/SayHelloProxy.java" />
         <option value="$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/demo/aoptest/proxy/SayHelloCjlibProxy.java" />
         <option value="$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/demo/aoptest/proxy/SayHelloCglibProxy.java" />
-        <option value="$PROJECT_DIR$/liuyq-springtest/pom.xml" />
         <option value="$PROJECT_DIR$/liuyq-center/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/demo/aoptest/Interface/IFXNewsPersister.java" />
         <option value="$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/demo/aoptest/service/MockNewsPersister.java" />
@@ -297,11 +206,15 @@
         <option value="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/util/RdNumberUtil.java" />
         <option value="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/util/BigDecimalUtil.java" />
         <option value="$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/util/RdStringUtil.java" />
-        <option value="$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/test.java" />
         <option value="$PROJECT_DIR$/liuyq-springtest/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/model/ModelSub.java" />
         <option value="$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/entities/Operator.java" />
         <option value="$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/entities/UserLogAspect.java" />
+        <option value="$PROJECT_DIR$/liuyq-springtest/pom.xml" />
+        <option value="$PROJECT_DIR$/liuyq-center/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/service/AwareService.java" />
+        <option value="$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/service/AwareConfig.java" />
+        <option value="$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/test.java" />
       </list>
     </option>
   </component>
@@ -326,13 +239,475 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState />
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="liuyq-businessNew" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="liuyq-businessNew" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-1928" />
-    <option name="y" value="-182" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>AOP</id>
+          </State>
+          <State>
+            <id>Abstraction issuesJava</id>
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness &gt; Chrome OS</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness &gt; Messages</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Internationalization</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Internationalization &gt; Bidirectional Text</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Lint</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Performance</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Security</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Usability</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Usability &gt; Icons</id>
+          </State>
+          <State>
+            <id>Android Lint for Kotlin</id>
+          </State>
+          <State>
+            <id>ArquillianJava</id>
+          </State>
+          <State>
+            <id>Assignment issuesGroovy</id>
+          </State>
+          <State>
+            <id>Assignment issuesJava</id>
+          </State>
+          <State>
+            <id>Assignment issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CDI(Contexts and Dependency Injection) issues</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Class metricsJava</id>
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Cloning issuesJava</id>
+          </State>
+          <State>
+            <id>Code maturity issuesJava</id>
+          </State>
+          <State>
+            <id>Code style issuesCSS</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+          <State>
+            <id>Concurrency annotation issuesJava</id>
+          </State>
+          <State>
+            <id>Control FlowGroovy</id>
+          </State>
+          <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Data flow issuesGroovy</id>
+          </State>
+          <State>
+            <id>Data flow issuesJava</id>
+          </State>
+          <State>
+            <id>Declaration redundancyGroovy</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>DeclarationGroovy</id>
+          </State>
+          <State>
+            <id>ECMAScript 6 migration aidsJavaScript</id>
+          </State>
+          <State>
+            <id>Encapsulation issuesJava</id>
+          </State>
+          <State>
+            <id>Error handlingGroovy</id>
+          </State>
+          <State>
+            <id>Error handlingJava</id>
+          </State>
+          <State>
+            <id>Error handlingJavaScript</id>
+          </State>
+          <State>
+            <id>Finalization issuesJava</id>
+          </State>
+          <State>
+            <id>FlexUnit inspections</id>
+          </State>
+          <State>
+            <id>FreeMarker inspections</id>
+          </State>
+          <State>
+            <id>GPath inspectionsGroovy</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralCoffeeScript</id>
+          </State>
+          <State>
+            <id>GeneralJava</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Guice Inspections</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>ImportsJava</id>
+          </State>
+          <State>
+            <id>Inheritance issuesJava</id>
+          </State>
+          <State>
+            <id>Initialization issuesJava</id>
+          </State>
+          <State>
+            <id>Internationalization issuesJava</id>
+          </State>
+          <State>
+            <id>Invalid elementsCSS</id>
+          </State>
+          <State>
+            <id>J2ME SupportJava</id>
+          </State>
+          <State>
+            <id>J2ME issuesJava</id>
+          </State>
+          <State>
+            <id>JBoss Seam issues</id>
+          </State>
+          <State>
+            <id>JPA issues</id>
+          </State>
+          <State>
+            <id>JSF annotated elements errors</id>
+          </State>
+          <State>
+            <id>JSP Inspections</id>
+          </State>
+          <State>
+            <id>JUnit issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 5Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 7Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 8Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 9Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java EE issues</id>
+          </State>
+          <State>
+            <id>Java interop issuesKotlin</id>
+          </State>
+          <State>
+            <id>Java language level issuesJava</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavaBeans issuesJava</id>
+          </State>
+          <State>
+            <id>JavaFX</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript function metricsJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Javadoc issuesJava</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Less</id>
+          </State>
+          <State>
+            <id>Logging issuesJava</id>
+          </State>
+          <State>
+            <id>Manifest</id>
+          </State>
+          <State>
+            <id>Memory issuesJava</id>
+          </State>
+          <State>
+            <id>Method MetricsGroovy</id>
+          </State>
+          <State>
+            <id>Method metricsJava</id>
+          </State>
+          <State>
+            <id>Naming ConventionsGroovy</id>
+          </State>
+          <State>
+            <id>Naming conventionsJava</id>
+          </State>
+          <State>
+            <id>Naming conventionsJavaScript</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>Other problemsKotlin</id>
+          </State>
+          <State>
+            <id>Pattern Validation</id>
+          </State>
+          <State>
+            <id>Performance issuesJava</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Portability issuesJava</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsCSS</id>
+          </State>
+          <State>
+            <id>Probable bugsCoffeeScript</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsKotlin</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>RESTful Web Service</id>
+          </State>
+          <State>
+            <id>Redundant constructsKotlin</id>
+          </State>
+          <State>
+            <id>Reflective access issuesJava</id>
+          </State>
+          <State>
+            <id>RegExp</id>
+          </State>
+          <State>
+            <id>Resource management issuesJava</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Sass/SCSS</id>
+          </State>
+          <State>
+            <id>Security issuesJava</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring BootSpring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring DataSpring</id>
+          </State>
+          <State>
+            <id>Spring IntegrationSpring</id>
+          </State>
+          <State>
+            <id>Spring MVCSpring</id>
+          </State>
+          <State>
+            <id>Spring Web ServicesSpring</id>
+          </State>
+          <State>
+            <id>Struts</id>
+          </State>
+          <State>
+            <id>Struts 2Struts</id>
+          </State>
+          <State>
+            <id>Style issuesKotlin</id>
+          </State>
+          <State>
+            <id>StyleGroovy</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+          <State>
+            <id>Thymeleaf</id>
+          </State>
+          <State>
+            <id>TypeScript</id>
+          </State>
+          <State>
+            <id>UI Form Problems</id>
+          </State>
+          <State>
+            <id>Validity issuesGroovy</id>
+          </State>
+          <State>
+            <id>Velocity inspections</id>
+          </State>
+          <State>
+            <id>Verbose or redundant code constructsJava</id>
+          </State>
+          <State>
+            <id>Visibility issuesJava</id>
+          </State>
+          <State>
+            <id>Web Services</id>
+          </State>
+          <State>
+            <id>WebSocket issues</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XMLSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+          <State>
+            <id>toString() issuesJava</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -352,310 +727,20 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-businessNew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-businessNew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-businessNew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-businessNew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-springtest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-businessNew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-businessNew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-springtest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-businessNew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-businessNew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-springtest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-businessNew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-businessNew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-springtest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springtest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-businessNew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-businessNew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-springtest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springtest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-businessNew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-businessNew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-springtest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springtest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entities" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-businessNew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-businessNew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-designpattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-businessNew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-businessNew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-center" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-businessNew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-businessNew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-center" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-businessNew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-businessNew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-center" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-businessNew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-businessNew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-center" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-businessNew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-businessNew" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liuyq-center" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springtest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="liuyq-businessNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liuyq-businessNew" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -666,13 +751,17 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.303125" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-    <property name="last_opened_file_path" value="D:/workspace/p2p" />
-    <property name="SearchEverywhereHistoryKey" value="MockNewsPersister&#9;FILE&#9;file://D:/myworkspace/liuyq-businessNew/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/demo/aoptest/service/MockNewsPersister.java&#10;FactoryBea&#9;PSI&#9;JAVA://com.liuyq.springtest.ioc.factorybean.MyCarFactoryBean&#10;Scope&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-context/4.3.1.RELEASE/spring-context-4.3.1.RELEASE.jar!/org/springframework/context/annotation/Scope.class&#10;RequestProcessor&#9;PSI&#9;JAVA://org.springframework.test.web.servlet.request.RequestPostProcessor&#10;pointCut&#9;PSI&#9;JAVA://org.springframework.aop.Pointcut&#10;BeaN&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/config/BeanDefinition.class&#10;Bea&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/support/BeanDefinitionRegistry.class&#10;Proper&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/support/PropertiesBeanDefinitionReader.class&#10;AspectProxyFactory&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/aspectj/annotation/AspectJProxyFactory.class&#10;pointC&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/aspectj/AspectJExpressionPointcut.class&#10;A&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/aspectj/AspectJAroundAdvice.class&#10;As&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/framework/AdvisedSupport.class&#10;AroundAdvice&#9;PSI&#9;JAVA://org.springframework.aop.aspectj.AspectJAroundAdvice&#10;AspectJProxyFactory&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/aspectj/annotation/AspectJProxyFactory.class&#10;BeanDefinitionRegistry&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/support/BeanDefinitionRegistry.class&#10;BeanDefinitionReader&#9;PSI&#9;JAVA://org.springframework.beans.factory.support.BeanDefinitionReader&#10;BeanDe&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/config/BeanDefinition.class&#10;BeanF&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/BeanFactory.class&#10;AnnotationAwareAspectjAutoProxyCreator&#9;PSI&#9;JAVA://org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator&#10;proxyF&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/aspectj/annotation/AspectJProxyFactory.class&#10;AspectJAwareAdvisorAutoProxyCreator&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/aspectj/autoproxy/AspectJAwareAdvisorAutoProxyCreator.class&#10;AspectJExpressionPointcut&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/aspectj/AspectJExpressionPointcut.class&#10;BeanDefinition&#9;PSI&#9;JAVA://org.springframework.beans.factory.config.BeanDefinition&#10;jdk&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class&#10;met&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.class&#10;AspectJMethodBeforeAdvice&#9;PSI&#9;JAVA://org.springframework.aop.aspectj.AspectJMethodBeforeAdvice&#10;oi&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/Pointcut.class&#10;jd&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class&#10;AopF&#9;PSI&#9;JAVA://org.springframework.aop.framework.AopProxyFactory&#10;aop&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/framework/AopProxy.class&#10;Advi&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/framework/AdvisorChainFactory.class&#10;proxy&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/framework/ProxyFactoryBean.class&#10;point&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/Pointcut.class&#10;throws&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/ThrowsAdvice.class&#10;throw&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/ThrowsAdvice.class&#10;throwAd&#9;PSI&#9;JAVA://org.springframework.aop.ThrowsAdvice&#10;Advisor&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/Advisor.class&#10;poinC&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/Pointcut.class&#10;registR&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/framework/adapter/DefaultAdvisorAdapterRegistry.class&#10;AF&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/AfterAdvice.class&#10;bean&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/framework/ProxyFactoryBean.class&#10;Aopf&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/framework/AopProxyFactory.class&#10;ProxyFactoryBean&#9;PSI&#9;JAVA://org.springframework.aop.framework.ProxyFactoryBean&#10;ProxyFac&#9;PSI&#9;JAVA://org.springframework.aop.framework.ProxyFactory&#10;AspectjproxyF&#9;PSI&#9;JAVA://org.springframework.aop.aspectj.annotation.AspectJProxyFactory&#10;pointcutp&#9;PSI&#9;JAVA://org.aspectj.weaver.tools.PointcutParser&#10;pointcu&#9;PSI&#9;JAVA://org.springframework.aop.Pointcut&#10;AutoproxyCreator&#9;PSI&#9;JAVA://org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator&#10;AutoproxyCR&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/aspectj/autoproxy/AspectJAwareAdvisorAutoProxyCreator.class&#10;prox&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/framework/ProxyFactory.class" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="FILX&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/spring-context/4.3.1.RELEASE/spring-context-4.3.1.RELEASE.jar!/org/springframework/context/support/FileSystemXmlApplicationContext.class&#10;proxyF&#9;PSI&#9;JAVA://org.springframework.aop.framework.ProxyFactoryBean&#10;XmlBeanFactory&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/xml/XmlBeanFactory.class&#10;Filex&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/spring-context/4.3.1.RELEASE/spring-context-4.3.1.RELEASE.jar!/org/springframework/context/support/FileSystemXmlApplicationContext.class&#10;beanPostProcess&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/config/BeanPostProcessor.class&#10;FileX&#9;PSI&#9;JAVA://org.springframework.context.support.FileSystemXmlApplicationContext&#10;MockNewsPersister&#9;FILE&#9;file://D:/myworkspace/liuyq-businessNew/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/demo/aoptest/service/MockNewsPersister.java&#10;FactoryBea&#9;PSI&#9;JAVA://com.liuyq.springtest.ioc.factorybean.MyCarFactoryBean&#10;Scope&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-context/4.3.1.RELEASE/spring-context-4.3.1.RELEASE.jar!/org/springframework/context/annotation/Scope.class&#10;RequestProcessor&#9;PSI&#9;JAVA://org.springframework.test.web.servlet.request.RequestPostProcessor&#10;pointCut&#9;PSI&#9;JAVA://org.springframework.aop.Pointcut&#10;BeaN&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/config/BeanDefinition.class&#10;Bea&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/support/BeanDefinitionRegistry.class&#10;Proper&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/support/PropertiesBeanDefinitionReader.class&#10;AspectProxyFactory&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/aspectj/annotation/AspectJProxyFactory.class&#10;pointC&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/aspectj/AspectJExpressionPointcut.class&#10;A&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/aspectj/AspectJAroundAdvice.class&#10;As&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/framework/AdvisedSupport.class&#10;AroundAdvice&#9;PSI&#9;JAVA://org.springframework.aop.aspectj.AspectJAroundAdvice&#10;AspectJProxyFactory&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/aspectj/annotation/AspectJProxyFactory.class&#10;BeanDefinitionRegistry&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/support/BeanDefinitionRegistry.class&#10;BeanDefinitionReader&#9;PSI&#9;JAVA://org.springframework.beans.factory.support.BeanDefinitionReader&#10;BeanDe&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/config/BeanDefinition.class&#10;BeanF&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/BeanFactory.class&#10;AnnotationAwareAspectjAutoProxyCreator&#9;PSI&#9;JAVA://org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator&#10;AspectJAwareAdvisorAutoProxyCreator&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/aspectj/autoproxy/AspectJAwareAdvisorAutoProxyCreator.class&#10;AspectJExpressionPointcut&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/aspectj/AspectJExpressionPointcut.class&#10;BeanDefinition&#9;PSI&#9;JAVA://org.springframework.beans.factory.config.BeanDefinition&#10;jdk&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class&#10;met&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.class&#10;AspectJMethodBeforeAdvice&#9;PSI&#9;JAVA://org.springframework.aop.aspectj.AspectJMethodBeforeAdvice&#10;oi&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/Pointcut.class&#10;jd&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class&#10;AopF&#9;PSI&#9;JAVA://org.springframework.aop.framework.AopProxyFactory&#10;aop&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/framework/AopProxy.class&#10;Advi&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/framework/AdvisorChainFactory.class&#10;proxy&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/framework/ProxyFactoryBean.class&#10;point&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/Pointcut.class&#10;throws&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/ThrowsAdvice.class&#10;throw&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/ThrowsAdvice.class&#10;throwAd&#9;PSI&#9;JAVA://org.springframework.aop.ThrowsAdvice&#10;Advisor&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/Advisor.class&#10;poinC&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/Pointcut.class&#10;registR&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/framework/adapter/DefaultAdvisorAdapterRegistry.class&#10;AF&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/AfterAdvice.class&#10;bean&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/framework/ProxyFactoryBean.class&#10;Aopf&#9;FILE&#9;jar://C:/Users/刘宇qing/.m2/repository/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/framework/AopProxyFactory.class&#10;ProxyFactoryBean&#9;PSI&#9;JAVA://org.springframework.aop.framework.ProxyFactoryBean&#10;ProxyFac&#9;PSI&#9;JAVA://org.springframework.aop.framework.ProxyFactory&#10;AspectjproxyF&#9;PSI&#9;JAVA://org.springframework.aop.aspectj.annotation.AspectJProxyFactory" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.liuyq.designpatter.appearance" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\myworkspace\liuyq-businessNew\liuyq-springtest\src\main" />
+      <recent name="D:\myworkspace\liuyq-businessNew\liuyq-business-common\src\main\java\com\liuyq\common\redis" />
+      <recent name="D:\myworkspace\liuyq-businessNew\liuyq-center\src\main\resources" />
+      <recent name="D:\myeclipse\liuyq-businessNew\liuyq-mongo\liuyq-mongo-service\src\main\resources" />
+      <recent name="D:\myeclipse\liuyq-businessNew\liuyq-mongo\liuy-mongo-interface\src\main\java\com\liuyq\mongo\enums" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.liuyq.common.util" />
@@ -681,32 +770,35 @@
       <recent name="" />
       <recent name="com.liuyq.common.GlobalProperties" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\myworkspace\liuyq-businessNew\liuyq-springtest\src\main" />
-      <recent name="D:\myworkspace\liuyq-businessNew\liuyq-business-common\src\main\java\com\liuyq\common\redis" />
-      <recent name="D:\myworkspace\liuyq-businessNew\liuyq-center\src\main\resources" />
-      <recent name="D:\myeclipse\liuyq-businessNew\liuyq-mongo\liuyq-mongo-service\src\main\resources" />
-      <recent name="D:\myeclipse\liuyq-businessNew\liuyq-mongo\liuy-mongo-interface\src\main\java\com\liuyq\mongo\enums" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.liuyq.designpatter.appearance" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.test.testUserLog">
-    <configuration default="false" name="test.testWithIn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.liuyq.springtest.aop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.test.test6">
+    <configuration name="All in liuyq-springtest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="liuyq-springtest" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.liuyq.springtest.aop" />
-      <option name="MAIN_CLASS_NAME" value="com.liuyq.springtest.aop.test" />
-      <option name="METHOD_NAME" value="testWithIn" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -714,29 +806,8 @@
       </option>
       <envs />
       <patterns />
-      <method />
     </configuration>
-    <configuration default="false" name="ClassUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.liuyq.common.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.liuyq.common.util.ClassUtils" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="liuyq-business-commont" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="SayHelloCglibProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="SayHelloCglibProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.liuyq.springtest.aop.demo.aoptest.proxy.*" />
@@ -754,77 +825,103 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="liuyq-springtest" />
       <envs />
-      <method />
     </configuration>
-    <configuration default="false" name="test.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.liuyq.springtest.aop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="liuyq-springtest" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.liuyq.springtest.aop" />
-      <option name="MAIN_CLASS_NAME" value="com.liuyq.springtest.aop.test" />
-      <option name="METHOD_NAME" value="test5" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
     </configuration>
-    <configuration default="false" name="test.testUserLog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.liuyq.springtest.aop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="liuyq-springtest" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.liuyq.springtest.aop" />
-      <option name="MAIN_CLASS_NAME" value="com.liuyq.springtest.aop.test" />
-      <option name="METHOD_NAME" value="testUserLog" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment />
-      <server-settings />
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+    <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
-      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
@@ -879,29 +976,6 @@
         <option name="SUPPORT_LIB_ENABLED" value="true" />
         <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -1050,36 +1124,6 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="passParentEnv" value="true" />
-      <setting name="launchBrowser" value="true" />
-      <setting name="launchBrowserUrl" value="" />
-      <setting name="depsClasspath" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <envs />
@@ -1157,55 +1201,21 @@
       </MavenSettings>
       <method />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -1221,7 +1231,7 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration default="false" name="liuyq-businessNew" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat-8.0.26" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="liuyq-businessNew" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat-8.0.26" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="liuyq-center:war exploded">
@@ -1294,7 +1304,7 @@
         </option>
       </method>
     </configuration>
-    <configuration default="false" name="liuyq-spring" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat-8.0.26" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="liuyq-spring" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat-8.0.26" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="liuyq-springtest:war exploded">
@@ -1366,22 +1376,97 @@
         </option>
       </method>
     </configuration>
+    <configuration name="test.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.liuyq.springtest.aop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="liuyq-springtest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.liuyq.springtest.aop" />
+      <option name="MAIN_CLASS_NAME" value="com.liuyq.springtest.aop.test" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="test.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.liuyq.springtest.aop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="liuyq-springtest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.liuyq.springtest.aop" />
+      <option name="MAIN_CLASS_NAME" value="com.liuyq.springtest.aop.test" />
+      <option name="METHOD_NAME" value="test6" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="test.testUserLog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.liuyq.springtest.aop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="liuyq-springtest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.liuyq.springtest.aop" />
+      <option name="MAIN_CLASS_NAME" value="com.liuyq.springtest.aop.test" />
+      <option name="METHOD_NAME" value="testUserLog" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.liuyq-businessNew" />
       <item index="1" class="java.lang.String" itemvalue="Tomcat Server.liuyq-spring" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.test.testWithIn" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ClassUtils" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SayHelloCglibProxy" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.test.test5" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.test.testUserLog" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SayHelloCglibProxy" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.test.test5" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.test.testUserLog" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.All in liuyq-springtest" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.test.test6" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.test.testUserLog" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.test.test5" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SayHelloCglibProxy" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ClassUtils" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.test.testWithIn" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.test.test6" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SayHelloCglibProxy" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.All in liuyq-springtest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.test.testUserLog" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.test.test5" />
       </list>
     </recent_temporary>
   </component>
@@ -1457,6 +1542,11 @@
       <workItem from="1555981172255" duration="13990000" />
       <workItem from="1556068990864" duration="22166000" />
       <workItem from="1556155099310" duration="21397000" />
+      <workItem from="1557055600955" duration="2858000" />
+      <workItem from="1557058544773" duration="4147000" />
+      <workItem from="1557143938207" duration="7014000" />
+      <workItem from="1557230836045" duration="2165000" />
+      <workItem from="1557239673295" duration="1315000" />
     </task>
     <task id="LOCAL-00001" summary="删除">
       <created>1519873752479</created>
@@ -1535,18 +1625,19 @@
       <option name="project" value="LOCAL" />
       <updated>1555924962503</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="spring test类">
+      <created>1557055700172</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1557055700172</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test_testUserLog - 2019.04.25 at 16h 49m 14s.xml">
-      <configuration name="test.testUserLog" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="test_testUserLog - 2019.04.25 at 16h 51m 27s.xml">
-      <configuration name="test.testUserLog" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="test_testUserLog - 2019.04.25 at 16h 53m 06s.xml">
-      <configuration name="test.testUserLog" configurationId="JUnit" />
+    <history-entry file="test_test6 - 2019.05.07 at 22h 52m 25s.xml">
+      <configuration name="test.test6" configurationId="JUnit" />
     </history-entry>
     <history-entry file="test_testUserLog - 2019.04.25 at 16h 54m 19s.xml">
       <configuration name="test.testUserLog" configurationId="JUnit" />
@@ -1569,56 +1660,61 @@
     <history-entry file="test_testUserLog - 2019.04.25 at 17h 15m 41s.xml">
       <configuration name="test.testUserLog" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="test_testUserLog - 2019.05.05 at 20h 06m 39s.xml">
+      <configuration name="test.testUserLog" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_testUserLog - 2019.05.05 at 20h 08m 20s.xml">
+      <configuration name="test.testUserLog" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="279186000" />
+    <option name="totallyTimeSpent" value="296685000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-182" width="1936" height="1066" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32715008" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35919055" sideWeight="0.5121029" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35873017" sideWeight="0.5121029" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32715008" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4445629" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44436312" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45082873" sideWeight="0.48789713" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45079365" sideWeight="0.48789713" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32715008" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40472177" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4031746" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32715008" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32363012" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29060772" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32222223" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2904762" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32715008" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288364" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288364" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24786781" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24816984" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32715008" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32715008" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="554" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288364" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32715008" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1635,15 +1731,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/entities/UserLogAspect.java</url>
-          <line>42</line>
-          <properties />
-          <option name="timeStamp" value="76" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="77" />
+      <option name="time" value="82" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1652,303 +1740,31 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/aspectj/annotation/AspectJProxyFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="32" column="47" lean-forward="true" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
-          <folding>
-            <element signature="e#1709#1710#0" expanded="true" />
-            <element signature="e#1755#1756#0" expanded="true" />
-            <element signature="e#5182#5183#0" expanded="true" />
-            <element signature="e#5237#5238#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/support/BeanDefinitionRegistry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.1.RELEASE/spring-context-4.3.1.RELEASE.jar!/org/springframework/context/annotation/ConfigurationClassBeanDefinitionReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="310" column="25" lean-forward="false" selection-start-line="310" selection-start-column="25" selection-end-line="310" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/support/RootBeanDefinition.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanDefinition.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="32" column="50" lean-forward="true" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/support/ChildBeanDefinition.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="13" column="51" lean-forward="true" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/config/BeanDefinition.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="83" column="57" lean-forward="true" selection-start-line="83" selection-start-column="57" selection-end-line="83" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/support/PropertiesBeanDefinitionReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="33" column="65" lean-forward="true" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanDefinitionReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="152" column="66" lean-forward="false" selection-start-line="152" selection-start-column="51" selection-end-line="152" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-solr/liuyq-solr-service/src/main/java/com/liuyq/solr/domain/PrivateCarSearchNativeDomain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="28" column="89" lean-forward="false" selection-start-line="28" selection-start-column="89" selection-end-line="28" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-solr/liuyq-solr-interface/src/main/java/com/liuyq/solr/domain/PrivateCarSearchDomain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/support/JdkRegexpMethodPointcut.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="12" column="75" lean-forward="true" selection-start-line="12" selection-start-column="75" selection-end-line="12" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/Pointcut.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.1.RELEASE/spring-core-4.3.1.RELEASE.jar!/org/springframework/core/io/support/EncodedResource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/jre/lib/rt.jar!/sun/misc/RequestProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.1.RELEASE/spring-test-4.3.1.RELEASE.jar!/org/springframework/test/web/servlet/request/RequestPostProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-center/src/main/resources/applicationContext-dubbo.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="60" lean-forward="true" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-center/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="75" column="55" lean-forward="true" selection-start-line="75" selection-start-column="55" selection-end-line="75" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/jre/lib/rt.jar!/sun/reflect/generics/scope/Scope.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.1.RELEASE/spring-context-4.3.1.RELEASE.jar!/org/springframework/context/annotation/Scope.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#780#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/ioc/factorybean/MyCarFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/FactoryBean.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/model/FXNewsBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/model/Model1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/demo/aoptest/Interface/ILog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
+        <state relative-caret-position="76">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/annotation/UserLog.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/SmartFactoryBean.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="76">
+          <caret line="7" column="52" lean-forward="false" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/reflect/Executable.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.1.RELEASE/spring-context-4.3.1.RELEASE.jar!/org/springframework/context/support/AbstractRefreshableApplicationContext.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="349" column="22" lean-forward="false" selection-start-line="349" selection-start-column="11" selection-end-line="349" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="386">
+          <caret line="110" column="79" lean-forward="false" selection-start-line="110" selection-start-column="75" selection-end-line="110" selection-end-column="79" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/util/FreemarkerUtil.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.1.RELEASE/spring-core-4.3.1.RELEASE.jar!/org/springframework/core/io/support/ResourcePatternResolver.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/util/StringValidUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1012">
-          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/util/RdArrayUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/util/BigDecimalUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="400" column="6" lean-forward="false" selection-start-line="400" selection-start-column="6" selection-end-line="400" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/util/RdNumberUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1012">
-          <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/util/ClassUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="47" lean-forward="false" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/util/RdStringUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="602" column="56" lean-forward="false" selection-start-line="602" selection-start-column="56" selection-end-line="602" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="171">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1960,116 +1776,384 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springtest/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="1" column="41" lean-forward="true" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.1.RELEASE/spring-context-4.3.1.RELEASE.jar!/org/springframework/context/support/AbstractRefreshableConfigApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="55" column="24" lean-forward="false" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.1.RELEASE/spring-context-4.3.1.RELEASE.jar!/org/springframework/context/support/AbstractXmlApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="50" column="32" lean-forward="false" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanDefinitionReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1159">
+          <caret line="94" column="40" lean-forward="false" selection-start-line="94" selection-start-column="40" selection-end-line="94" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/groovy/GroovyBeanDefinitionReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="86" column="15" lean-forward="false" selection-start-line="86" selection-start-column="15" selection-end-line="86" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/support/BeanDefinitionReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/xml/DefaultDocumentLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/xml/DocumentLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3876">
+          <caret line="248" column="27" lean-forward="false" selection-start-line="248" selection-start-column="27" selection-end-line="248" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/xml/BeanDefinitionDocumentReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/xml/DefaultBeanDefinitionDocumentReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="36" column="43" lean-forward="true" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/xml/XmlBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/framework/AdvisedSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="152" column="16" lean-forward="false" selection-start-line="152" selection-start-column="16" selection-end-line="152" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/framework/ProxyConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="54" column="16" lean-forward="false" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/framework/DefaultAopProxyFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/framework/AopProxyFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/framework/ProxyCreatorSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="45" column="60" lean-forward="true" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/framework/ProxyFactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="106" column="42" lean-forward="true" selection-start-line="106" selection-start-column="42" selection-end-line="106" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.1.RELEASE/spring-context-4.3.1.RELEASE.jar!/org/springframework/context/support/FileSystemXmlApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="40" column="22" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.1.RELEASE/spring-context-4.3.1.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="478" column="27" lean-forward="false" selection-start-line="478" selection-start-column="27" selection-end-line="478" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/config/ConfigurableListableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="585" column="31" lean-forward="true" selection-start-line="585" selection-start-column="31" selection-end-line="585" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/BeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.1.RELEASE/spring-core-4.3.1.RELEASE.jar!/org/springframework/core/SimpleAliasRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="149" column="18" lean-forward="false" selection-start-line="149" selection-start-column="18" selection-end-line="149" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanDefinition.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="254" column="22" lean-forward="true" selection-start-line="254" selection-start-column="22" selection-end-line="254" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/TypeConverterSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/TypeConverter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/jdk/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="211" column="6" lean-forward="false" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.springframework.beans.factory.support.FactoryBeanRegistrySupport">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.springframework.beans.factory.support.FactoryBeanRegistrySupport</OriginalElement>
+          <nodes>
+            <node x="19.5" y="0.0">org.springframework.core.AliasRegistry</node>
+            <node x="0.0" y="80.0">org.springframework.core.SimpleAliasRegistry</node>
+            <node x="65.75000000000001" y="160.0">org.springframework.beans.factory.support.DefaultSingletonBeanRegistry</node>
+            <node x="181.0" y="80.0">org.springframework.beans.factory.config.SingletonBeanRegistry</node>
+            <node x="68.75000000000001" y="240.0">org.springframework.beans.factory.support.FactoryBeanRegistrySupport</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework.core.SimpleAliasRegistry" target="org.springframework.core.AliasRegistry">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.beans.factory.support.DefaultSingletonBeanRegistry" target="org.springframework.beans.factory.config.SingletonBeanRegistry">
+              <point x="54.75" y="-15.0" />
+              <point x="230.0" y="135.0" />
+              <point x="270.0" y="135.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.beans.factory.support.FactoryBeanRegistrySupport" target="org.springframework.beans.factory.support.DefaultSingletonBeanRegistry">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.beans.factory.support.DefaultSingletonBeanRegistry" target="org.springframework.core.SimpleAliasRegistry">
+              <point x="-54.75" y="-15.0" />
+              <point x="120.50000000000001" y="135.0" />
+              <point x="80.5" y="135.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-94.0" y="87.0" />
+          <SelectedNodes>
+            <node>org.springframework.beans.factory.config.SingletonBeanRegistry</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/framework/AbstractAdvisingBeanPostProcessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/config/BeanPostProcessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/support/FactoryBeanRegistrySupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="44" column="21" lean-forward="false" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/ObjectFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1672">
+          <caret line="113" column="29" lean-forward="false" selection-start-line="113" selection-start-column="29" selection-end-line="113" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18221">
+          <caret line="1075" column="30" lean-forward="false" selection-start-line="1075" selection-start-column="30" selection-end-line="1075" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/ioc/applicationContext/event/MethodExecutionEventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/demo/aoptest/proxy/SayHelloCglibProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="57">
+          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/applicationListener/MyInItProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar!/javax/servlet/ServletContextListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/model/ModelSub.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.1.RELEASE/spring-web-4.3.1.RELEASE.jar!/org/springframework/web/context/ContextLoaderListener.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state relative-caret-position="247">
+          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/service/UserService.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.1.RELEASE/spring-web-4.3.1.RELEASE.jar!/org/springframework/web/context/ContextLoader.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        <state relative-caret-position="1102">
+          <caret line="90" column="80" lean-forward="false" selection-start-line="90" selection-start-column="80" selection-end-line="90" selection-end-column="80" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/demo/aoptest/proxy/SayHelloProxy.java">
+    <entry file="file://$PROJECT_DIR$/liuyq-center/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        <state relative-caret-position="399">
+          <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/demo/aoptest/service/MockNewsPersister.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.1.RELEASE/spring-beans-4.3.1.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="514">
+          <caret line="277" column="40" lean-forward="false" selection-start-line="277" selection-start-column="40" selection-end-line="277" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/service/AwareService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/service/AwareConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="50" lean-forward="false" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/demo/aoptest/service/LogService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/demo/aoptest/Interface/IFXNewsPersister.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/entities/Operator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="62" column="33" lean-forward="false" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-business-common/src/main/java/com/liuyq/common/util/ReflectUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.1.RELEASE/spring-aop-4.3.1.RELEASE.jar!/org/springframework/aop/aspectj/AbstractAspectJAdvice.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="429" column="44" lean-forward="true" selection-start-line="429" selection-start-column="44" selection-end-line="429" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="483" column="52" lean-forward="true" selection-start-line="483" selection-start-column="52" selection-end-line="483" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="68" column="27" lean-forward="true" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liuyq-springtest/src/main/java/com/liuyq/springtest/aop/entities/UserLogAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="409">
+          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2128,7 +2212,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>liuyq-businessNew</last-edited>
+          <last-edited>liuyq-springtest</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

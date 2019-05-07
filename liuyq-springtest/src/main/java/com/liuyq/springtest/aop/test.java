@@ -7,9 +7,12 @@ import com.liuyq.springtest.aop.demo.aoptest.service.MockNewsPersister;
 import com.liuyq.springtest.aop.demo.aoptest.service.SayService;
 import com.liuyq.springtest.aop.model.Model1;
 import com.liuyq.springtest.aop.model.ModelSub;
+import com.liuyq.springtest.aop.service.AwareConfig;
+import com.liuyq.springtest.aop.service.AwareService;
 import com.liuyq.springtest.aop.service.FooService;
 import com.liuyq.springtest.aop.service.UserService;
 import org.junit.Test;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
 import org.springframework.util.PatternMatchUtils;
 
@@ -79,5 +82,14 @@ public class test {
         MockNewsPersister persister = (MockNewsPersister)resource.getBean("mockPersister");
         persister.persistNews();
         persister.persistNews();
+    }
+
+    @Test
+    public void test6(){
+        AnnotationConfigApplicationContext  context = new AnnotationConfigApplicationContext(AwareConfig.class);
+
+        AwareService a  = context.getBean(AwareService.class);
+
+        a.outPutResult();
     }
 }
