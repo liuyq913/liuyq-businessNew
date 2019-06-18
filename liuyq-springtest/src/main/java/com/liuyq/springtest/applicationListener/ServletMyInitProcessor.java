@@ -16,12 +16,11 @@ public class ServletMyInitProcessor implements ServletContextListener{
 
     @Override
     public void contextInitialized(ServletContextEvent servletContextEvent) {
-
+        LOGGER.info("Servlet容器里面，在spring 容器加载完之后执行这里");
     }
 
     @Override
     public void contextDestroyed(ServletContextEvent servletContextEvent) {
         servletContextEvent.getServletContext();
-        LOGGER.info("Servlet容器里面，在spring 容器加载完之后执行这里");
     }
 }

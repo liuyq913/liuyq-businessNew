@@ -39,6 +39,7 @@
       <module name="liuyq-solr" target="1.8" />
       <module name="liuyq-solr-interface" target="1.8" />
       <module name="liuyq-solr-server" target="1.8" />
+      <module name="liuyq-springboottest" target="1.6" />
       <module name="liuyq-springtest" target="1.8" />
       <module name="liuyq.dynamic" target="1.8" />
       <module name="liuyqeffectivejava" target="1.8" />

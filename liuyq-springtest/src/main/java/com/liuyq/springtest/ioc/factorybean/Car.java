@@ -7,6 +7,11 @@ public class Car {
 
     private  String  make;
     private  int year;
+
+
+    public Car(){
+        System.out.println("父类构造");
+    }
     public String getMake() {
         return make;
     }

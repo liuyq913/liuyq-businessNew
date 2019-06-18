@@ -18,7 +18,7 @@
 
 
     <!--&lt;!&ndash;指定jdbc.properties的位置 &ndash;&gt;-->
-    <context:property-placeholder location="classpath:dubbo-runtime.properties,classpath:redis.properties" file-encoding="UTF-8"/>
+    <context:property-placeholder location="classpath:dubbo-runtime.properties,classpath:redis.properties,classpath:jdbc.properties" file-encoding="UTF-8"/>
 
 
 
@@ -95,4 +95,37 @@
         <property name="serviceInterface" value="com.liuyq.jms.AlertService"/>
     </bean>
     -->
+
+    <!-- 数据源配置, 使用DBCP数据库连接池 -->
+    <!-- 数据库连接池 -->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
+          destroy-method="close">
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+        <property name="driverClassName" value="${jdbc.driver}"/>
+        <property name="maxActive" value="10"/>
+        <property name="minIdle" value="5"/>
+        <property name="validationQuery" value="select 1"/>
+        <property name="testWhileIdle" value="true"/>
+    </bean>
+
+    <!-- 事务配置 -->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+
+    <bean id="baseTransactionProxy" class="org.springframework.transaction.interceptor.TransactionProxyFactoryBean"
+         abstract="true">
+       <property name="transactionManager" ref="transactionManager"/>
+         <property name="transactionAttributes">
+         <props>
+           <prop key="insert*">PROPAGATION_REQUIRED</prop>
+           <prop key="update*">PROPAGATION_REQUIRED</prop>
+           <prop key="*">PROPAGATION_REQUIRED,readOnly</prop>
+         </props>
+       </property>
+     </bean>
+
 </beans>

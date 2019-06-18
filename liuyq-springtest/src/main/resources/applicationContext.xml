@@ -3,41 +3,29 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
        xmlns:aop="http://www.springframework.org/schema/aop"
-       xmlns:solr="http://www.springframework.org/schema/data/solr" xmlns:p="http://www.springframework.org/schema/p"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans.xsd
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context-4.1.xsd
-   	http://www.springframework.org/schema/aop
-    http://www.springframework.org/schema/aop/spring-aop-4.1.xsd
-    http://www.springframework.org/schema/data/solr
-    http://www.springframework.org/schema/data/solr/spring-solr.xsd
-    http://www.springframework.org/schema/context
-    http://www.springframework.org/schema/context/spring-context.xsd">
+   	 http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
 
+
+    <context:property-placeholder location="classpath:jdbc.properties,classpath:mybatisConfig.xml" file-encoding="UTF-8"/>
 
     <context:component-scan base-package="com.liuyq.springtest"/>
     <aop:aspectj-autoproxy proxy-target-class="true"/>
 
     <!--测试FactoryBean-->
-    <bean id="car" class="com.liuyq.springtest.ioc.factorybean.MyCarFactoryBean">
+    <bean id="myCarFactoryBean" class="com.liuyq.springtest.ioc.factorybean.MyCarFactoryBean">
         <property name="make" value="makeing car"/>
         <property name="year" value="123"/>
     </bean>
 
     <bean id="person" class="com.liuyq.springtest.ioc.factorybean.Person">
-        <property name="car" ref="car"/>
+        <property name="car" ref="myCarFactoryBean"/>
     </bean>
 
     <bean id="withinAspect" class="com.liuyq.springtest.aop.entities.Within"/>
-
-   <!-- <bean id="newsBean" class="com.liuyq.springtest.aop.model.FXNewsBean" scope="prototype"/>
-    <bean id="mockNewsPersister" class="com.liuyq.springtest.aop.demo.aoptest.service.MockNewsPersister">
-        <property name="newsBean">
-            <ref bean="newsBean"/>
-        </property>
-    </bean>-->
-
 
     <aop:config>
         <aop:aspect id="myaspect" ref="withinAspect">
@@ -46,4 +34,57 @@
             <aop:before method="doBefore" pointcut-ref="privatePointCut"/>
         </aop:aspect>
     </aop:config>
+
+    <!-- 数据源配置, 使用DBCP数据库连接池 -->
+    <!-- 数据库连接池 -->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
+          destroy-method="close">
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+        <property name="driverClassName" value="${jdbc.driver}"/>
+        <property name="maxActive" value="10"/>
+        <property name="minIdle" value="5"/>
+        <property name="validationQuery" value="select 1"/>
+        <property name="testWhileIdle" value="true"/>
+    </bean>
+
+
+    <!-- 配置sqlSessionFactory-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="configLocation" value="classpath:mybatisConfig.xml"/>
+        <property name="dataSource" ref="dataSource"/>
+        <property name="mapperLocations">
+            <list>
+                <value>classpath*:com/liuyq/springtest/**/mapper/*.xml</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.liuyq.springtest.**.mapper"/>
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+    </bean>
+
+
+    <!-- 事务配置 -->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+   <!--声明式事物-->
+    <bean id="baseTransactionProxy" class="org.springframework.transaction.interceptor.TransactionProxyFactoryBean"
+          abstract="true">
+        <property name="transactionManager" ref="transactionManager"/>
+        <property name="transactionAttributes">
+            <props>
+                <prop key="insert*">PROPAGATION_REQUIRED</prop>
+                <prop key="update*">PROPAGATION_REQUIRED</prop>
+                <prop key="*">PROPAGATION_REQUIRED,readOnly</prop>
+            </props>
+        </property>
+       <!-- <property name="target" ref=""/>-->
+    </bean>
+
+
 </beans>

@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="war" name="liuyq-center:war">
     <output-path>$PROJECT_DIR$/liuyq-center/target</output-path>
-    <root id="archive" name="indi-zc-lele.war">
+    <root id="archive" name="liuyq-center-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="liuyq-center:war exploded" />
     </root>
   </artifact>

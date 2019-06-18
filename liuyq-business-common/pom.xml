@@ -18,7 +18,7 @@
         <dependency>
             <groupId>org.bouncycastle</groupId>
             <artifactId>bcprov-jdk15on</artifactId>
-            <version>RELEASE</version>
+            <version>${bouncycastle.version}</version>
         </dependency>
         <dependency>
             <groupId>commons-codec</groupId>
