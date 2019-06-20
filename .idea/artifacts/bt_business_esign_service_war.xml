@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="bt-business-esign-service:war">
+    <output-path>D:/workspace/bt-business-esign/bt-business-esign-service/target</output-path>
+    <root id="archive" name="bt-business-esign-service-1.0.0.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="bt-business-esign-service:war exploded" />
+    </root>
+  </artifact>
+</component>

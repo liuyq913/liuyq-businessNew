@@ -42,6 +42,7 @@
     <file type="web" url="file://$PROJECT_DIR$/liuyq-center" />
     <file type="web" url="file://$PROJECT_DIR$/liuyq-dynamic" />
     <file type="web" url="file://$PROJECT_DIR$/liuyq-springtest" />
+    <file type="web" url="file://D:/workspace/bt-business-esign/bt-business-esign-service" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -56,6 +57,10 @@
         <option value="$PROJECT_DIR$/../liuyq-mongo/liuyq-mongo-service/pom.xml" />
         <option value="$PROJECT_DIR$/../liuyq-mongo/pom.xml" />
         <option value="$PROJECT_DIR$/../liuyqe-ffectivejava/pom.xml" />
+        <option value="D:/workspace/bt-business-esign/bt-business-esign-interface/pom.xml" />
+        <option value="D:/workspace/bt-business-esign/bt-business-esign-service/pom.xml" />
+        <option value="D:/workspace/bt-business-esign/bt-business-esign-test/pom.xml" />
+        <option value="D:/workspace/bt-business-esign/pom.xml" />
       </set>
     </option>
   </component>

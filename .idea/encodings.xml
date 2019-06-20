@@ -17,8 +17,11 @@
     <file url="file://$PROJECT_DIR$/liuyq-solr" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/liuyq-solr/liuyq-solr-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/liuyq-solr/liuyq-solr-service" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/liuyq-springboottest" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/liuyq-springtest" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/liuyq-zookeeper" charset="UTF-8" />
+    <file url="file://D:/workspace/bt-business-esign" charset="UTF-8" />
+    <file url="file://D:/workspace/bt-business-esign/bt-business-esign-interface" charset="UTF-8" />
+    <file url="file://D:/workspace/bt-business-esign/bt-business-esign-service" charset="UTF-8" />
+    <file url="file://D:/workspace/bt-business-esign/bt-business-esign-test" charset="UTF-8" />
   </component>
 </project>

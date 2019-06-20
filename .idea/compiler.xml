@@ -22,6 +22,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="bt-business-esign" target="1.8" />
+      <module name="bt-business-esign-interface" target="1.8" />
+      <module name="bt-business-esign-service" target="1.8" />
+      <module name="bt-business-esign-test" target="1.8" />
       <module name="com.liuyq.designpattern" target="1.8" />
       <module name="com.liuyq.designpattern-service" target="1.8" />
       <module name="com.liuyq.designpattern.interface" target="1.8" />
