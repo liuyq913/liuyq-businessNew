@@ -18,7 +18,7 @@
 
     <context:component-scan base-package="com.liuyq.springtest"/>
 
-   <!-- <aop:aspectj-autoproxy proxy-target-class="true"/>-->
+   <aop:aspectj-autoproxy proxy-target-class="true"/>
 
     <!--测试FactoryBean-->
     <bean id="myCarFactoryBean" class="com.liuyq.springtest.ioc.factorybean.MyCarFactoryBean">

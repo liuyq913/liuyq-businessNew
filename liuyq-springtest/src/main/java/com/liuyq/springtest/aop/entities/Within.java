@@ -6,9 +6,9 @@ import org.aspectj.lang.annotation.Before;
 /**
  * Created by liuyq on 2019/4/21.
  */
-//@Aspect
-//@Component
-//@Order(0)
+/*@Aspect
+@Component
+@Order(0)*/
 public class Within {
 
     //用了这个AnyJoinpontAnnotation注解的类全会被匹配

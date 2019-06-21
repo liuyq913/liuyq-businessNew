@@ -3,18 +3,15 @@ package com.liuyq.springtest.aop.entities;
 import com.liuyq.springtest.aop.annotation.UserLog;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
-import org.aspectj.lang.annotation.Aspect;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.core.annotation.Order;
-import org.springframework.stereotype.Component;
 
 /**
  * Created by liuyq on 2019/4/21.
  */
-@Aspect
+/*@Aspect
 @Component
-@Order(3)
+@Order(3)*/
 public class UserLogAspect {
 
     private static final Logger logger = LoggerFactory.getLogger(UserLogAspect.class);
@@ -40,7 +37,7 @@ public class UserLogAspect {
         String requset = null;
         for(Object o : args){
             Class clazz = o.getClass();
-            System.out.println(clazz.getMethod("getRequestNo").invoke(o));
+            System.out.println("模拟记录日志"+clazz.getMethod("getRequestNo").invoke(o));
 
             /*if(o instanceof ModelSub){
                 ModelSub modelSub = (ModelSub)o;
