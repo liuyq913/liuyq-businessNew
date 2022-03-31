@@ -26,7 +26,7 @@
         <spring.data.solr.version>2.0.2.RELEASE</spring.data.solr.version>
         <spring.data.version>1.10.2.RELEASE</spring.data.version>
         <spring.security.version>4.0.1.RELEASE</spring.security.version>
-        <spring.version>4.3.1.RELEASE</spring.version>
+        <spring.version>5.3.18</spring.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <activemq-core.version>5.7.0</activemq-core.version>
