@@ -83,7 +83,7 @@
         <solr-core.version>6.1.0</solr-core.version>
         <swagger-springmvc.version>0.8.8</swagger-springmvc.version>
         <zkclient.version>0.1</zkclient.version>
-        <zookeeper.version>3.4.8</zookeeper.version>
+        <zookeeper.version>3.4.14</zookeeper.version>
         <kafka-clients.version>0.8.2.1</kafka-clients.version>
         <joda-time.version>2.5</joda-time.version>
         <curator-climent.version>4.0.0</curator-climent.version>
