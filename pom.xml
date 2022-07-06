@@ -21,7 +21,7 @@
     </modules>
 
     <properties>
-        <spring.data.jpa.version>1.10.2.RELEASE</spring.data.jpa.version>
+        <spring.data.jpa.version>1.11.23.RELEASE</spring.data.jpa.version>
         <spring.data.redis.version>1.7.1.RELEASE</spring.data.redis.version>
         <spring.data.solr.version>2.0.2.RELEASE</spring.data.solr.version>
         <spring.data.version>1.10.2.RELEASE</spring.data.version>
